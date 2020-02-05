@@ -175,7 +175,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/04/%E5%AF%BC%E6%95%B0%E4%B8%8E%E5%BE%AE%E5%88%86/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/05/%E5%AF%BC%E6%95%B0%E4%B8%8E%E5%BE%AE%E5%88%86/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -189,7 +189,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2020/02/04/%E5%AF%BC%E6%95%B0%E4%B8%8E%E5%BE%AE%E5%88%86/" class="post-title-link" itemprop="url">导数与微分</a>
+            <a href="/2020/02/05/%E5%AF%BC%E6%95%B0%E4%B8%8E%E5%BE%AE%E5%88%86/" class="post-title-link" itemprop="url">导数与微分</a>
         </h1>
 
         <div class="post-meta">
@@ -199,7 +199,7 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2020-02-04 20:38:41" itemprop="dateCreated datePublished" datetime="2020-02-04T20:38:41+08:00">2020-02-04</time>
+              <time title="创建时间：2020-02-05 22:22:55" itemprop="dateCreated datePublished" datetime="2020-02-05T22:22:55+08:00">2020-02-05</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -265,13 +265,47 @@
 <p><span class="math display">\[\left(\frac{u(x)}{v(x)}\right)&#39;=\frac{u&#39;(x)*v(x)+u(x)*v&#39;(x)}{v^2(x)}\]</span></p>
 <h1 id="高阶导数">高阶导数</h1>
 <p>n阶导数一般这样子记 <span class="math display">\[\frac{d^{n}y}{dx^{n}}\]</span></p>
+<h2 id="高阶导数公式重要">高阶导数公式（重要）</h2>
+<h3 id="指数函数-1">指数函数</h3>
+<p><span class="math display">\[(e^x)^{(n)}=e^x\]</span></p>
+<h3 id="正弦余弦">正弦余弦</h3>
+<p><span class="math display">\[(\sin x)^{(n)}=\sin (x+n*\frac{\Pi}{2})\]</span></p>
+<p><span class="math display">\[(\cos x)^{(n)}=\cos (x+n*\frac{\Pi}{2})\]</span></p>
+<h3 id="对数函数-1">对数函数</h3>
+<p><span class="math display">\[[\ln (1+x)]^{(n)}=(-1)^{n-1}\frac{(n-1)!}{(1+x)^n}\]</span></p>
+<h3 id="幂函数-1">幂函数</h3>
+<p><span class="math display">\[
+(x^\mu)^{(n)}=
+\begin{cases}
+\mu(\mu-1)(\mu-2)...(\mu -n+1)x^{\mu -n}   &amp; n&lt;\mu \\
+n!  &amp; n=\mu \\
+0  &amp; n&gt;\mu
+\end{cases}
+\]</span></p>
+<h3 id="莱布尼兹公式类杨辉三角uvn">莱布尼兹公式（类杨辉三角）<span class="math inline">\((uv)^{(n)}\)</span></h3>
+<p><span class="math display">\[(uv)^{(n)}=\sum_{k=0}^{n}C_n^k u^{(n-k)} v^{(k)}\]</span></p>
+<h1 id="隐函数求导注意事项">隐函数求导注意事项</h1>
+<h2 id="隐函数一阶导数">隐函数一阶导数</h2>
+<p><span class="math display">\[\frac{\frac{dy}{dt}}{\frac{dx}{dt}}\text{相当于上面对y求导，然后下面是对x求导}\]</span></p>
+<h2 id="隐函数二阶导数">隐函数二阶导数</h2>
+<p><span class="math display">\[
+\frac{d^2y}{dx^2}=
+\frac{d\frac{\frac{\frac{dy}{dt}}{\frac{dx}{dt}}}{dt}}{\frac{dx}{dt}}=
+\frac{d\frac{\frac{dy}{dt}}{\frac{dx}{dt}}}{dt}*\frac{dt}{dx}
+\]</span></p>
+<p>以此类推隐函数n阶导数</p>
+<h1 id="微分">微分</h1>
+<p>微分(dy)就是在原函数上求导得到<span class="math inline">\(\frac{dy}{dx}\)</span>，然后将dx挪至等式右边</p>
+<p>例如：</p>
+<p><span class="math display">\[dy=(\sin x)&#39;dx\]</span></p>
 <h1 id="其他杂七杂八公式">其他杂七杂八公式</h1>
 <h2 id="扇形公式">扇形公式</h2>
 <p>面积公式：</p>
 <p><span class="math display">\[S=\frac{LR}{2}=\frac{n\Pi R^2}{360}\text{（其中n为角度，非弧度）}\]</span></p>
 <p>弧长公式：</p>
 <p><span class="math display">\[L=R\alpha\]</span></p>
-<h2 id="圆锥公式">圆锥公式</h2>
+<h2 id="对数换底对数求导法要用到">对数换底（对数求导法要用到）</h2>
+<p><span class="math display">\[y=x^{\sin x}\Rightarrow \ln y=ln x^{\sin x}\Rightarrow \ln y = \sin x \ln x\]</span></p>
 
       
     </div>
