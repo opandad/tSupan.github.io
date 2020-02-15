@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-05T14:26:39.826Z</updated>
+  <updated>2020-02-15T11:17:43.118Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>微分中值定理与导数的应用</title>
+    <link href="http://yoursite.com/2020/02/15/%E5%BE%AE%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%E4%B8%8E%E5%AF%BC%E6%95%B0%E7%9A%84%E5%BA%94%E7%94%A8/"/>
+    <id>http://yoursite.com/2020/02/15/微分中值定理与导数的应用/</id>
+    <published>2020-02-15T11:17:43.118Z</published>
+    <updated>2020-02-15T11:17:43.118Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="微分中值定理使用要求在这里">微分中值定理（使用要求在这里）</h1><p>使用要求：</p><p>(1)在闭区间[a, b]上连续</p><p>(2)在开区间(a, b)内可导</p><h2 id="罗尔定理拉格朗日中值定理">罗尔定理、拉格朗日中值定理</h2><p>罗尔定理为拉格朗日中值定理的特殊情形</p><h3 id="拉格朗日中值定理">拉格朗日中值定理</h3><p>在使用要求的前提下，有函数f(x)</p><p>可得<span class="math inline">\((a, b)\)</span>内至少有一点<span class="math inline">\(\xi(a&lt;\xi&lt;b)\)</span>，使<span class="math inline">\(f(b)-f(a)=f&#39;(\xi)(b-a)\)</span></p><h3 id="罗尔定理">罗尔定理</h3><p>在上面拉格朗日中值定理要求基础上添加一条<span class="math inline">\(f(a)=f(b)\)</span>的要求</p><p>则<span class="math inline">\((a, b)\)</span>内至少有一点<span class="math inline">\(\xi(a&lt;\xi&lt;b)\)</span>，使<span class="math inline">\(f&#39;(\xi)=0\)</span></p><h2 id="柯西中值定理">柯西中值定理</h2><p>在使用要求的前提下，分别有两个函数<span class="math inline">\(f(x)\)</span>和<span class="math inline">\(F(x)\)</span></p><p>添加一个要求：任一<span class="math inline">\(x\in(a, b)\)</span>，使<span class="math inline">\(F&#39;(x)\not=0\)</span></p><p>则<span class="math inline">\((a, b)\)</span>内至少有一点<span class="math inline">\(\xi(a&lt;\xi&lt;b)\)</span>，使<span class="math inline">\(\frac{f(b)-f(a)}{F(b)-F(a)}=\frac{f&#39;(\xi)}{F&#39;(\xi)}\)</span></p><h1 id="洛必达法则">洛必达法则</h1><h2 id="定理一">定理一</h2><p>(1)当<span class="math inline">\(x\rightarrow a\)</span>时，函数<span class="math inline">\(f(x)\approx 0 \text{&amp;} F(x)\approx 0\)</span>(趋近于0)</p><p>(2)在点a的某去心领域内，f'(x)及F'(x)都存在且<span class="math inline">\(F&#39;(x)\not= 0\)</span></p><p>(3)<span class="math inline">\(\displaystyle\lim_{x\rightarrow a}\frac{f&#39;(x)}{F&#39;(x)}\)</span>存在(或为无穷大)</p><p>则<span class="math inline">\(\displaystyle\lim_{x\rightarrow a}\frac{f(x)}{F(x)} = \lim_{x\rightarrow a}\frac{f&#39;(x)}{F&#39;(x)}\)</span></p><h2 id="定理二">定理二</h2><p>(1)当<span class="math inline">\(x\rightarrow \infty\)</span>时，函数<span class="math inline">\(f(x)\approx 0 \text{&amp;} F(x)\approx 0\)</span>(趋近于0)</p><p>(2)当<span class="math inline">\(|x|&gt;N\)</span>时<span class="math inline">\(f&#39;(x)\)</span>与<span class="math inline">\(F&#39;(x)\)</span>都存在，且<span class="math inline">\(F&#39;(x)\not= 0\)</span></p><p>(3)<span class="math inline">\(\displaystyle\lim_{x\rightarrow \infty}\frac{f&#39;(x)}{F&#39;(x)}\)</span>存在(或为无穷大)</p><p>则<span class="math inline">\(\displaystyle\lim_{x\rightarrow \infty}\frac{f(x)}{F(x)} = \lim_{x\rightarrow a}\frac{f&#39;(x)}{F&#39;(x)}\)</span></p><h1 id="泰勒公式">泰勒公式</h1><h2 id="公式原型">公式原型</h2><p><span class="math display">\[f(x)=f(x_0)+\frac{f^{(1)}(x_0)}{1!}(x-x_0)+\frac{f^{(2)}(x_0)}{2!}(x-x_0)^{2}+...+\frac{f^{(n)}(x_0)}{n!}(x-x_0)^{n}+R_n(x)\]</span></p><p>当存在n阶导数时，<span class="math inline">\(R_n(x)\)</span>为佩亚诺余项。当存在(n+1)阶导数时，<span class="math inline">\(R_n(x)\)</span>为拉格朗日余项</p><h2 id="各个余项式子">各个余项式子</h2><h3 id="佩亚诺余项">佩亚诺余项</h3><p><span class="math display">\[R_n(x)=o((x-x_0)^n)\]</span></p><h3 id="拉格朗日余项">拉格朗日余项</h3><p><span class="math display">\[R_n(x)=\frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}\]</span> 其中<span class="math inline">\(\xi\)</span>的值在<span class="math inline">\(x_0\)</span>和x之间</p><h2 id="r_nx估计式"><span class="math inline">\(R_n(x)\)</span>估计式</h2><p><span class="math display">\[|R_n(x)|=\begin{vmatrix}\frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}\end{vmatrix}\leq \frac{M}{(n+1)!}|x-x_0|^{(n+1)}\]</span> 当<span class="math inline">\(\xi=0\)</span>时=号成立</p><h2 id="麦克劳林公式">麦克劳林公式</h2><p>在泰勒公式中取<span class="math inline">\(x_0=0\)</span>即为麦克劳林公式，也即 <span class="math display">\[f(x)=f(0)+\frac{f^{(1)}(0)}{1!}x+\frac{f^{(2)}(0)}{2!}x^{2}+...+\frac{f^{(n)}(0)}{n!}x^{n}+R_n(x)\]</span></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;微分中值定理使用要求在这里&quot;&gt;微分中值定理（使用要求在这里）&lt;/h1&gt;
+&lt;p&gt;使用要求：&lt;/p&gt;
+&lt;p&gt;(1)在闭区间[a, b]上连续&lt;/p&gt;
+&lt;p&gt;(2)在开区间(a, b)内可导&lt;/p&gt;
+&lt;h2 id=&quot;罗尔定理拉格朗日中值定理&quot;&gt;罗尔定理、拉格朗日
+      
+    
+    </summary>
+    
+      <category term="高等数学" scheme="http://yoursite.com/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="微分中值定理与导数的应用" scheme="http://yoursite.com/tags/%E5%BE%AE%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%E4%B8%8E%E5%AF%BC%E6%95%B0%E7%9A%84%E5%BA%94%E7%94%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>导数与微分</title>
