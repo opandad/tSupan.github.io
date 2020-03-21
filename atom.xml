@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-07T09:23:43.385Z</updated>
+  <updated>2020-03-21T02:09:34.749Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>不定积分</title>
-    <link href="http://yoursite.com/2020/03/07/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/"/>
-    <id>http://yoursite.com/2020/03/07/不定积分/</id>
-    <published>2020-03-07T08:52:19.322Z</published>
-    <updated>2020-03-07T09:23:43.385Z</updated>
+    <title>不定积分与定积分</title>
+    <link href="http://yoursite.com/2020/03/10/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86%E4%B8%8E%E5%AE%9A%E7%A7%AF%E5%88%86/"/>
+    <id>http://yoursite.com/2020/03/10/不定积分与定积分/</id>
+    <published>2020-03-10T06:09:08.323Z</published>
+    <updated>2020-03-21T02:09:34.749Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="不定积分公式必记">不定积分公式（必记）</h1><p>1.<span class="math display">\[\int kdx=kx+C\]</span></p><p>2.<span class="math display">\[\int x^{\mu}dx=\frac{x^{\mu+1}}{\mu+1}+C\]</span></p><p>3.<span class="math display">\[\int \frac{dx}{x}=ln|x|+C\]</span></p><p>4.<span class="math display">\[\int \frac{dx}{1+x^2}=\arctan x+C\]</span></p><p>5.<span class="math display">\[\int \frac{dx}{\sqrt{1+x^2}}=\arcsin x+C\]</span></p><p>6.<span class="math display">\[\int \cos xdx=\sin x+C\]</span></p><p>7.<span class="math display">\[\int \sin xdx=-\cos x+C\]</span></p><p>8.<span class="math display">\[\int \frac{dx}{\cos^2x}=\int \sec^2xdx=\tan x+C\]</span></p><p>9.<span class="math display">\[\int \frac{dx}{\sin^2x}=\int \csc^2xdx=-\cot x+C\]</span></p><p>10.<span class="math display">\[\int \sec x\tan xdx=\sec x+C\]</span></p><p>11.<span class="math display">\[\int \csc x\cot xdx=-\csc x+C\]</span></p><p>12.<span class="math display">\[\int e^xdx=e^x+C\]</span></p><p>13.<span class="math display">\[\int a^xdx=\frac{a^x}{\ln a}\]</span></p><p>14.<span class="math display">\[\int \text{sh} xdx=\text{ch} x+C\]</span></p><p>15.<span class="math display">\[\int \text{ch} xdx=\text{sh} x+C\]</span></p><p>16.<span class="math display">\[\int \tan xdx=-\ln|\cos x|+C\]</span></p><p>17.<span class="math display">\[\int \cot xdx=\ln|\sin x|+C\]</span></p><p>18.<span class="math display">\[\int \sec xdx=\ln|\sec x+\tan x|+C\]</span></p><p>19.<span class="math display">\[\int \csc xdx=\ln|\csc x-\cot x|+C\]</span></p><p>20.<span class="math display">\[\int \frac{dx}{a^2+x^2}=\frac{1}{a}\arctan \frac{x}{a}+C\]</span></p><p>21.<span class="math display">\[\int \frac{dx}{x^2-a^2}=\frac{1}{2a}\ln \frac{}{}\]</span></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="不定积分公式必记">不定积分公式（必记）</h1><p>1.<span class="math display">\[\int kdx=kx+C\]</span></p><p>2.<span class="math display">\[\int x^{\mu}dx=\frac{x^{\mu+1}}{\mu+1}+C\]</span></p><p>3.<span class="math display">\[\int \frac{dx}{x}=ln|x|+C\]</span></p><p>4.<span class="math display">\[\int \frac{dx}{1+x^2}=\arctan x+C\]</span></p><p>5.<span class="math display">\[\int \frac{dx}{\sqrt{1+x^2}}=\arcsin x+C\]</span></p><p>6.<span class="math display">\[\int \cos xdx=\sin x+C\]</span></p><p>7.<span class="math display">\[\int \sin xdx=-\cos x+C\]</span></p><p>8.<span class="math display">\[\int \frac{dx}{\cos^2x}=\int \sec^2xdx=\tan x+C\]</span></p><p>9.<span class="math display">\[\int \frac{dx}{\sin^2x}=\int \csc^2xdx=-\cot x+C\]</span></p><p>10.<span class="math display">\[\int \sec x\tan xdx=\sec x+C\]</span></p><p>11.<span class="math display">\[\int \csc x\cot xdx=-\csc x+C\]</span></p><p>12.<span class="math display">\[\int e^xdx=e^x+C\]</span></p><p>13.<span class="math display">\[\int a^xdx=\frac{a^x}{\ln a}\]</span></p><p>14.<span class="math display">\[\int \text{sh} xdx=\text{ch} x+C\]</span></p><p>15.<span class="math display">\[\int \text{ch} xdx=\text{sh} x+C\]</span></p><p>16.<span class="math display">\[\int \tan xdx=-\ln|\cos x|+C\]</span></p><p>17.<span class="math display">\[\int \cot xdx=\ln|\sin x|+C\]</span></p><p>18.<span class="math display">\[\int \sec xdx=\ln|\sec x+\tan x|+C\]</span></p><p>19.<span class="math display">\[\int \csc xdx=\ln|\csc x-\cot x|+C\]</span></p><p>20.<span class="math display">\[\int \frac{dx}{a^2+x^2}=\frac{1}{a}\arctan \frac{x}{a}+C\]</span></p><p>21.<span class="math display">\[\int \frac{dx}{x^2-a^2}=\frac{1}{2a}\ln \left\lvert\frac{x-a}{x+a}\right\rvert+C\]</span></p><p>22.<span class="math display">\[\int \frac{dx}{\sqrt{a^2-x^2}}=\arcsin \frac{x}{a}+C\]</span></p><p>23.<span class="math display">\[\int \frac{dx}{\sqrt{x^2+a^2}}=\ln(x+\sqrt{x^2+a^2})+C\]</span></p><p>24.<span class="math display">\[\int \frac{dx}{\sqrt{x^2-a^2}}=\ln \left\lvert x+\sqrt{x^2-a^2}\right\rvert+C\]</span></p><h1 id="反三角函数转化">反三角函数转化</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:&#x2F;&#x2F;baike.baidu.com&#x2F;item&#x2F;%E5%8F%8D%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0&#x2F;7004029?fr&#x3D;aladdin</span><br></pre></td></tr></table></figure><h1 id="常用三角函数公式">常用三角函数公式</h1><h2 id="tan-fracx2推广"><span class="math inline">\(\tan \frac{x}{2}\)</span>推广</h2><p><span class="math display">\[\sin x=2\sin \frac{x}{2}\cos\frac{x}{2}=\frac{2\tan\frac{x}{2}}{\sec^2\frac{x}{2}}=\frac{2\tan\frac{x}{2}}{1+\tan^2\frac{x}{2}}\]</span></p><p><span class="math display">\[\cos x=\cos^2\frac{x}{2}-\sin^2\frac{x}{2}=\frac{1-\tan^2\frac{x}{2}}{\sec^2\frac{x}{2}}=\frac{1-\tan^2\frac{x}{2}}{1+\tan^2\frac{x}{2}}\]</span></p><h2 id="半角公式推广">半角公式推广</h2><p><span class="math display">\[\cos^2x=\frac{1+\cos 2x}{2}\]</span> <span class="math display">\[\sin^2x=\frac{1-\cos 2x}{2}\]</span></p><h1 id="定积分重要">定积分（重要）</h1><h2 id="基本公式">基本公式</h2><h3 id="积分上限及其导数公式">积分上限及其导数公式</h3><p><span class="math display">\[\Phi(x)=\int_a^xf(t)dt \rightarrow \Phi&#39;(x)=\frac{d}{dx}\int^x_af(t)dt=f(x),(a\leqslant x\leqslant b)\]</span></p><h3 id="牛顿-莱布尼兹公式">牛顿-莱布尼兹公式</h3><p><span class="math display">\[\int ^b_af(x)dx=F(b)-F(a)=[F(x)]^b_a\]</span></p><h3 id="积分中值定理">积分中值定理</h3><p><span class="math display">\[\int^b_af(x)dx=F(b)-F(a)=f(\zeta)(b-a),\zeta\in(a,b)\]</span></p><h2 id="奇偶函数积分计算公式">奇偶函数积分计算公式</h2><p>1.f(x)在[-a,a]上连续且为偶函数</p><p><span class="math display">\[\int^a_{-a}f(x)dx=2\int^a_0f(x)dx\]</span></p><p>2.f(x)在[-a,a]上连续且为奇数函数</p><p><span class="math display">\[\int^a_{-a}f(x)dx=0\]</span></p><h2 id="sin-x-cos-x周期公式"><span class="math inline">\(\sin x \cos x\)</span>周期公式</h2><p>f(x)在[0,1]上连续 <span class="math display">\[\int^{\frac{\pi}{2}}_0f(\sin x)dx=\int^{\frac{\pi}{2}}_0f(\cos x)dx\]</span> <span class="math display">\[\int^{\pi}_0f(x\sin x)dx=\frac{\pi}{2}\int^{\pi}_0\]</span></p>]]></content>
     
     <summary type="html">
     
@@ -39,9 +39,11 @@
       <category term="高等数学" scheme="http://yoursite.com/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
     
     
-      <category term="未完整博客" scheme="http://yoursite.com/tags/%E6%9C%AA%E5%AE%8C%E6%95%B4%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="不定积分" scheme="http://yoursite.com/tags/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/"/>
+    
+      <category term="定积分" scheme="http://yoursite.com/tags/%E5%AE%9A%E7%A7%AF%E5%88%86/"/>
+    
+      <category term="未完整博客" scheme="http://yoursite.com/tags/%E6%9C%AA%E5%AE%8C%E6%95%B4%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -185,11 +187,11 @@
       <category term="数据结构与算法" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     
+      <category term="未完整博客" scheme="http://yoursite.com/tags/%E6%9C%AA%E5%AE%8C%E6%95%B4%E5%8D%9A%E5%AE%A2/"/>
+    
       <category term="算法" scheme="http://yoursite.com/tags/%E7%AE%97%E6%B3%95/"/>
     
       <category term="ACM" scheme="http://yoursite.com/tags/ACM/"/>
-    
-      <category term="未完整博客" scheme="http://yoursite.com/tags/%E6%9C%AA%E5%AE%8C%E6%95%B4%E5%8D%9A%E5%AE%A2/"/>
     
       <category term="数论" scheme="http://yoursite.com/tags/%E6%95%B0%E8%AE%BA/"/>
     
@@ -251,13 +253,13 @@
       <category term="数据结构与算法" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
     
+      <category term="未完整博客" scheme="http://yoursite.com/tags/%E6%9C%AA%E5%AE%8C%E6%95%B4%E5%8D%9A%E5%AE%A2/"/>
+    
       <category term="算法" scheme="http://yoursite.com/tags/%E7%AE%97%E6%B3%95/"/>
     
       <category term="ACM" scheme="http://yoursite.com/tags/ACM/"/>
     
       <category term="字符串算法" scheme="http://yoursite.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="未完整博客" scheme="http://yoursite.com/tags/%E6%9C%AA%E5%AE%8C%E6%95%B4%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
