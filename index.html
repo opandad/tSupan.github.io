@@ -206,7 +206,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-03-21 10:10:01" itemprop="dateModified" datetime="2020-03-21T10:10:01+08:00">2020-03-21</time>
+                <time title="修改时间：2020-03-24 16:15:49" itemprop="dateModified" datetime="2020-03-24T16:15:49+08:00">2020-03-24</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -277,10 +277,22 @@
 <p><span class="math display">\[\int^a_{-a}f(x)dx=2\int^a_0f(x)dx\]</span></p>
 <p>2.f(x)在[-a,a]上连续且为奇数函数</p>
 <p><span class="math display">\[\int^a_{-a}f(x)dx=0\]</span></p>
-<h2 id="sin-x-cos-x周期公式"><span class="math inline">\(\sin x \cos x\)</span>周期公式</h2>
-<p>f(x)在[0,1]上连续</p>
+<h2 id="有周期定积分公式">有周期定积分公式</h2>
+<h3 id="fx在01上连续">f(x)在[0,1]上连续</h3>
 <p><span class="math display">\[\int^{\frac{\pi}{2}}_0f(\sin x)dx=\int^{\frac{\pi}{2}}_0f(\cos x)dx\]</span></p>
-<p><span class="math display">\[\int^{\pi}_0f(x\sin x)dx=\frac{\pi}{2}\int^{\pi}_0\]</span></p>
+<p><span class="math display">\[\int^{\pi}_0f(x\sin x)dx=\frac{\pi}{2}\int^{\pi}_0f(\sin x)dx\]</span></p>
+<h3 id="fx周期为t">f(x)周期为T</h3>
+<p><span class="math display">\[\int^{a+T}_af(x)dx=\int^T_0f(x)dx\]</span></p>
+<p><span class="math display">\[\int^{a+nT}_af(x)dx=n\int^T_0f(x)dx\]</span></p>
+<h2 id="关于sin-x-cos-x定积分公式">关于<span class="math inline">\(\sin x \cos x\)</span>定积分公式</h2>
+<p>1.<span class="math display">\[\int^{\frac{\pi}{2}}_0f(\sin x)dx=\int^{\frac{\pi}{2}}_0f(\cos x)dx\]</span></p>
+<p>2.<span class="math display">\[\int^{\pi}_0xf(\sin x)dx=\frac{\pi}{2}\int^{\pi}_0f(\sin x)dx\]</span></p>
+<p>3.<span class="math display">\[I_n=\int^{\frac{\pi}{2}}_0\sin^nxdx=\int^{\frac{\pi}{2}}_0\cos^nxdx=
+\begin{cases}
+\frac{n-1}{n}*\frac{n-3}{n-2}*...*\frac{3}{4}*\frac{1}{2}*\frac{\pi}{2}, \text{n为正偶数} \\
+\frac{n-1}{n}*\frac{n-3}{n-2}*...*\frac{4}{5}*\frac{2}{3}, \text{n为正奇数}
+\end{cases}
+\]</span></p>
 
       
     </div>
