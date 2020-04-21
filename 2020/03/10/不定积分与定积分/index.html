@@ -54,7 +54,7 @@
 <meta property="og:description" content="不定积分公式（必记） 1.\[\int kdx&#x3D;kx+C\] 2.\[\int x^{\mu}dx&#x3D;\frac{x^{\mu+1}}{\mu+1}+C\] 3.\[\int \frac{dx}{x}&#x3D;ln|x|+C\] 4.\[\int \frac{dx}{1+x^2}&#x3D;\arctan x+C\] 5.\[\int \frac{dx}{\sqrt{1+x^2}}&#x3D;\arcsin x+C\">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-03-10T06:09:08.323Z">
-<meta property="article:modified_time" content="2020-03-24T08:15:49.830Z">
+<meta property="article:modified_time" content="2020-04-08T09:53:24.409Z">
 <meta property="article:author" content="tSupan">
 <meta property="article:tag" content="未完整博客">
 <meta property="article:tag" content="不定积分">
@@ -212,7 +212,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-03-24 16:15:49" itemprop="dateModified" datetime="2020-03-24T16:15:49+08:00">2020-03-24</time>
+                <time title="修改时间：2020-04-08 17:53:24" itemprop="dateModified" datetime="2020-04-08T17:53:24+08:00">2020-04-08</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -299,6 +299,35 @@
 \frac{n-1}{n}*\frac{n-3}{n-2}*...*\frac{4}{5}*\frac{2}{3}, \text{n为正奇数}
 \end{cases}
 \]</span></p>
+<h1 id="反常积分">反常积分</h1>
+<h2 id="无界函数反常积分">无界函数反常积分</h2>
+<p>f(x)中当x逼近a时函数没有极值，点a则为瑕点，这个函数的反常积分则叫瑕积分</p>
+<h2 id="判断反常积分收敛方法">判断反常积分收敛方法</h2>
+<p>求瑕点(就是不存在值的点)，然后化简后洛洛洛必达就ok</p>
+<h2 id="gamma函数"><span class="math inline">\(\Gamma\)</span>函数</h2>
+<h3 id="定义">定义</h3>
+<p><span class="math inline">\(\Gamma(s)=\int^{+∞}_0e^{-x}x^{s-1}dx\quad (s&gt;0)\)</span></p>
+<h3 id="相关公式">相关公式</h3>
+<p>1.递推公式</p>
+<p><span class="math display">\[\Gamma(s+1)=s\Gamma(s)\]</span></p>
+<p>对于正整数<span class="math inline">\(\Gamma(s+1)=n!\)</span></p>
+<p>2.当<span class="math inline">\(s\rightarrow 0^+\)</span>时，<span class="math inline">\(\Gamma(s)\rightarrow +∞\)</span></p>
+<p>3.<span class="math inline">\(\Gamma(s) \Gamma(1-s)=\frac{\pi}{\sin \pi s}\;(0&lt;s&lt;1)\)</span></p>
+<p>4.在<span class="math inline">\(\Gamma(s)=\int^{+∞}_0e^{-x}x^{s-1}dx\)</span>中，令<span class="math inline">\(x=u^2\quad \rightarrow \quad \Gamma(s)=2\int^{+∞}_0e^{-u^2}u^{s-1} du\)</span></p>
+<p>4见高数上册P269</p>
+<h1 id="定积分应用多练">定积分应用（多练）</h1>
+<h2 id="算平面面积">算平面面积</h2>
+<h3 id="算极坐标面积公式">算极坐标面积公式</h3>
+<p><span class="math display">\[A=\int^{\beta}_{\alpha}\frac{1}{2}[\rho (\theta)]^2d\theta\]</span></p>
+<h2 id="算体积">算体积</h2>
+<h3 id="未知平面面积">未知平面面积</h3>
+<p><span class="math display">\[V=\int^{b}_{a} \pi[f(x)]^2dx\]</span></p>
+<h3 id="已知平面面积">已知平面面积</h3>
+<p><span class="math display">\[V=\int^{b}_{a}A(x)dx\]</span></p>
+<h3 id="平面图形绕y轴的体积公式">平面图形绕y轴的体积公式</h3>
+<p><span class="math display">\[V=2\pi \int^b_axf(x)dx\]</span></p>
+<h2 id="求弧长">求弧长</h2>
+<p><span class="math display">\[s=\int^{\beta}_{\alpha}\sqrt{y&#39;^2+x&#39;^2}dt \quad \text{y和x都是函数来的，如参数方程之类}\]</span></p>
 
     </div>
 
@@ -322,7 +351,10 @@
     <a href="/2020/02/29/%E5%BE%AE%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%E4%B8%8E%E5%AF%BC%E6%95%B0%E7%9A%84%E5%BA%94%E7%94%A8/" rel="prev" title="微分中值定理与导数的应用">
       <i class="fa fa-chevron-left"></i> 微分中值定理与导数的应用
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2020/04/08/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/" rel="next" title="微分方程">
+      微分方程 <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -382,7 +414,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#不定积分公式必记"><span class="nav-number">1.</span> <span class="nav-text">不定积分公式（必记）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#反三角函数转化"><span class="nav-number">2.</span> <span class="nav-text">反三角函数转化</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#常用三角函数公式"><span class="nav-number">3.</span> <span class="nav-text">常用三角函数公式</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#tan-fracx2推广"><span class="nav-number">3.1.</span> <span class="nav-text">\(\tan \frac{x}{2}\)推广</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#半角公式推广"><span class="nav-number">3.2.</span> <span class="nav-text">半角公式推广</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#定积分重要"><span class="nav-number">4.</span> <span class="nav-text">定积分（重要）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#基本公式"><span class="nav-number">4.1.</span> <span class="nav-text">基本公式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#积分上限及其导数公式"><span class="nav-number">4.1.1.</span> <span class="nav-text">积分上限及其导数公式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#牛顿-莱布尼兹公式"><span class="nav-number">4.1.2.</span> <span class="nav-text">牛顿-莱布尼兹公式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#积分中值定理"><span class="nav-number">4.1.3.</span> <span class="nav-text">积分中值定理</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#奇偶函数积分计算公式"><span class="nav-number">4.2.</span> <span class="nav-text">奇偶函数积分计算公式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#有周期定积分公式"><span class="nav-number">4.3.</span> <span class="nav-text">有周期定积分公式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#fx在01上连续"><span class="nav-number">4.3.1.</span> <span class="nav-text">f(x)在[0,1]上连续</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#fx周期为t"><span class="nav-number">4.3.2.</span> <span class="nav-text">f(x)周期为T</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关于sin-x-cos-x定积分公式"><span class="nav-number">4.4.</span> <span class="nav-text">关于\(\sin x \cos x\)定积分公式</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#不定积分公式必记"><span class="nav-number">1.</span> <span class="nav-text">不定积分公式（必记）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#反三角函数转化"><span class="nav-number">2.</span> <span class="nav-text">反三角函数转化</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#常用三角函数公式"><span class="nav-number">3.</span> <span class="nav-text">常用三角函数公式</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#tan-fracx2推广"><span class="nav-number">3.1.</span> <span class="nav-text">\(\tan \frac{x}{2}\)推广</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#半角公式推广"><span class="nav-number">3.2.</span> <span class="nav-text">半角公式推广</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#定积分重要"><span class="nav-number">4.</span> <span class="nav-text">定积分（重要）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#基本公式"><span class="nav-number">4.1.</span> <span class="nav-text">基本公式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#积分上限及其导数公式"><span class="nav-number">4.1.1.</span> <span class="nav-text">积分上限及其导数公式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#牛顿-莱布尼兹公式"><span class="nav-number">4.1.2.</span> <span class="nav-text">牛顿-莱布尼兹公式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#积分中值定理"><span class="nav-number">4.1.3.</span> <span class="nav-text">积分中值定理</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#奇偶函数积分计算公式"><span class="nav-number">4.2.</span> <span class="nav-text">奇偶函数积分计算公式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#有周期定积分公式"><span class="nav-number">4.3.</span> <span class="nav-text">有周期定积分公式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#fx在01上连续"><span class="nav-number">4.3.1.</span> <span class="nav-text">f(x)在[0,1]上连续</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#fx周期为t"><span class="nav-number">4.3.2.</span> <span class="nav-text">f(x)周期为T</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关于sin-x-cos-x定积分公式"><span class="nav-number">4.4.</span> <span class="nav-text">关于\(\sin x \cos x\)定积分公式</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#反常积分"><span class="nav-number">5.</span> <span class="nav-text">反常积分</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#无界函数反常积分"><span class="nav-number">5.1.</span> <span class="nav-text">无界函数反常积分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#判断反常积分收敛方法"><span class="nav-number">5.2.</span> <span class="nav-text">判断反常积分收敛方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#gamma函数"><span class="nav-number">5.3.</span> <span class="nav-text">\(\Gamma\)函数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#定义"><span class="nav-number">5.3.1.</span> <span class="nav-text">定义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#相关公式"><span class="nav-number">5.3.2.</span> <span class="nav-text">相关公式</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#定积分应用多练"><span class="nav-number">6.</span> <span class="nav-text">定积分应用（多练）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#算平面面积"><span class="nav-number">6.1.</span> <span class="nav-text">算平面面积</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#算极坐标面积公式"><span class="nav-number">6.1.1.</span> <span class="nav-text">算极坐标面积公式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#算体积"><span class="nav-number">6.2.</span> <span class="nav-text">算体积</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#未知平面面积"><span class="nav-number">6.2.1.</span> <span class="nav-text">未知平面面积</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#已知平面面积"><span class="nav-number">6.2.2.</span> <span class="nav-text">已知平面面积</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#平面图形绕y轴的体积公式"><span class="nav-number">6.2.3.</span> <span class="nav-text">平面图形绕y轴的体积公式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#求弧长"><span class="nav-number">6.3.</span> <span class="nav-text">求弧长</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -396,7 +428,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-count">10</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -409,7 +441,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-count">15</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
