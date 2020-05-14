@@ -46,21 +46,22 @@
   };
 </script>
 
-  <meta name="description" content="可分离变量微分方程 \(\frac{dy}{dx}&#x3D;\frac{y}{x}\)化成\(\frac{dy}{y}&#x3D;\frac{dx}{x}\)，也就是y一边，x化一边，再积分 齐次方程 \(\frac{dy}{dx}\)等号右边可以化成关于\(\frac{y}{x}\)的函数，就是齐次方程 一阶线性方程 线性方程 形式 \[\frac{dy}{dx}+P(x)y&#x3D;Q(x)\] 情况">
+  <meta name="description" content="对弧长的曲线积分（第一类曲线积分） 作用 求弧长 计算方法 \[ \begin{cases} x&#x3D;\varphi (t)\\\\ y&#x3D;\psi (t) \end{cases} (\alpha \leq t \leq \beta) \] 前提条件：\(\varphi (t)\)、\(\psi (t)\)在\([\alpha,\beta]\)有连续一阶导数，且\(\varphi &amp;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="微分方程">
-<meta property="og:url" content="http://yoursite.com/2020/04/08/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/index.html">
+<meta property="og:title" content="曲线积分与曲面积分">
+<meta property="og:url" content="http://yoursite.com/2020/05/12/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86%E4%B8%8E%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/index.html">
 <meta property="og:site_name" content="tSupan">
-<meta property="og:description" content="可分离变量微分方程 \(\frac{dy}{dx}&#x3D;\frac{y}{x}\)化成\(\frac{dy}{y}&#x3D;\frac{dx}{x}\)，也就是y一边，x化一边，再积分 齐次方程 \(\frac{dy}{dx}\)等号右边可以化成关于\(\frac{y}{x}\)的函数，就是齐次方程 一阶线性方程 线性方程 形式 \[\frac{dy}{dx}+P(x)y&#x3D;Q(x)\] 情况">
+<meta property="og:description" content="对弧长的曲线积分（第一类曲线积分） 作用 求弧长 计算方法 \[ \begin{cases} x&#x3D;\varphi (t)\\\\ y&#x3D;\psi (t) \end{cases} (\alpha \leq t \leq \beta) \] 前提条件：\(\varphi (t)\)、\(\psi (t)\)在\([\alpha,\beta]\)有连续一阶导数，且\(\varphi &amp;">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-04-08T09:54:42.371Z">
-<meta property="article:modified_time" content="2020-04-08T12:24:41.136Z">
+<meta property="article:published_time" content="2020-05-12T10:28:10.150Z">
+<meta property="article:modified_time" content="2020-05-13T04:05:02.335Z">
 <meta property="article:author" content="tSupan">
 <meta property="article:tag" content="未完整博客">
-<meta property="article:tag" content="微分方程">
+<meta property="article:tag" content="曲线积分与曲面积分">
+<meta property="article:tag" content="高等数学">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://yoursite.com/2020/04/08/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/">
+<link rel="canonical" href="http://yoursite.com/2020/05/12/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86%E4%B8%8E%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/">
 
 
 <script id="page-configurations">
@@ -72,7 +73,7 @@
   };
 </script>
 
-  <title>微分方程 | tSupan</title>
+  <title>曲线积分与曲面积分 | tSupan</title>
   
 
 
@@ -181,7 +182,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/04/08/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/12/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86%E4%B8%8E%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -194,7 +195,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          微分方程
+          曲线积分与曲面积分
         </h1>
 
         <div class="post-meta">
@@ -203,10 +204,16 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-04-08 17:54:42 / 修改时间：20:24:41" itemprop="dateCreated datePublished" datetime="2020-04-08T17:54:42+08:00">2020-04-08</time>
+              <time title="创建时间：2020-05-12 18:28:10" itemprop="dateCreated datePublished" datetime="2020-05-12T18:28:10+08:00">2020-05-12</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-05-13 12:05:02" itemprop="dateModified" datetime="2020-05-13T12:05:02+08:00">2020-05-13</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
@@ -230,26 +237,42 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="可分离变量微分方程">可分离变量微分方程</h1>
-<p><span class="math inline">\(\frac{dy}{dx}=\frac{y}{x}\)</span>化成<span class="math inline">\(\frac{dy}{y}=\frac{dx}{x}\)</span>，也就是y一边，x化一边，再积分</p>
-<h1 id="齐次方程">齐次方程</h1>
-<p><span class="math inline">\(\frac{dy}{dx}\)</span>等号右边可以化成关于<span class="math inline">\(\frac{y}{x}\)</span>的函数，就是齐次方程</p>
-<h1 id="一阶线性方程">一阶线性方程</h1>
-<h2 id="线性方程">线性方程</h2>
-<h3 id="形式">形式</h3>
-<p><span class="math display">\[\frac{dy}{dx}+P(x)y=Q(x)\]</span></p>
-<h3 id="情况">情况</h3>
-<p>Q(x)为0则为齐次，否则为非齐次</p>
-<h3 id="通解形式">通解形式</h3>
-<p><span class="math display">\[y=e^{-\int P(x)dx}\left( \int Q(x)e^{\int P(x)dx}dx+C \right)\]</span></p>
-<h2 id="伯努利方程">伯努利方程</h2>
-<h3 id="形式与线性方程略有不同">形式（与线性方程略有不同）</h3>
-<p><span class="math display">\[\frac{dy}{dx}+P(x)y=Q(x)y^n\]</span></p>
-<h3 id="通解形式-1">通解形式</h3>
-<p>方法：</p>
-<p>1.y^n往等号左边移动，变<span class="math inline">\(\frac{dy}{dx}y^{-n}+P(x)y^{1-n}=Q(x)\)</span></p>
-<p>2.令<span class="math inline">\(z=y^{1-n}\)</span>，求导代回1中的方程，得到<span class="math inline">\(\frac{dz}{dx}+(1-n)P(x)z=(1-n)Q(x)\)</span></p>
-<p>3.用线性方程通解形式求解，然后再把2中的z代回求解后的方程</p>
+        <h1 id="对弧长的曲线积分第一类曲线积分">对弧长的曲线积分（第一类曲线积分）</h1>
+<h2 id="作用">作用</h2>
+<p>求弧长</p>
+<h2 id="计算方法">计算方法</h2>
+<p><span class="math display">\[
+\begin{cases}
+x=\varphi (t)\\\\
+y=\psi (t)
+\end{cases}
+(\alpha \leq t \leq \beta)
+\]</span> 前提条件：<span class="math inline">\(\varphi (t)\)</span>、<span class="math inline">\(\psi (t)\)</span>在<span class="math inline">\([\alpha,\beta]\)</span>有连续一阶导数，且<span class="math inline">\(\varphi &#39;^2(t) +\psi &#39;^2(t)\neq 0\)</span></p>
+<p>则 <span class="math display">\[\int_Lf(x,y)ds=\int_{\alpha}^{\beta}f[\varphi (t),\psi (t)]\sqrt{\varphi &#39;^2(t) +\psi &#39;^2(t)}dt \ \ (\alpha &lt; \beta)\]</span></p>
+<h2 id="推广到空间曲线弧">推广到空间曲线弧</h2>
+<p><span class="math display">\[\int_Lf(x,y,z)ds=\int_{\alpha}^{\beta}f[\varphi (t),\psi (t),\omega (t)]\sqrt{\varphi &#39;^2(t) +\psi &#39;^2(t)+\omega &#39;^2(t)}dt\ \ (\alpha &lt; \beta)\]</span></p>
+<h2 id="特殊情形">特殊情形</h2>
+<p>也就是说少了谁就函数对谁求导</p>
+<h3 id="二维">二维</h3>
+<p><span class="math display">\[\int_Lf(x,y)ds=\int_{0}^{x_0}f[x,\psi (x)]\sqrt{1 +\psi &#39;^2(x)}dx \ \ (x_0 &lt; X)\]</span> <span class="math display">\[\int_Lf(x,y)ds=\int_{0}^{y_0}f[\varphi (y),y]\sqrt{\varphi &#39;^2(y) + 1}dy \ \ (y_0 &lt; Y)\]</span></p>
+<h3 id="三维">三维</h3>
+<p><span class="math display">\[\int_Lf(x,y,z)ds=\int_{\alpha}^{\beta}f[\varphi (t),\psi (t),\omega (t)]\sqrt{\varphi &#39;^2(t) +\psi &#39;^2(t)+\omega &#39;^2(t)}dt\ \ (\alpha &lt; \beta)\]</span></p>
+<h1 id="对坐标的曲线积分第二类曲线积分">对坐标的曲线积分（第二类曲线积分）</h1>
+<h2 id="作用-1">作用</h2>
+<p>求做功（物理上）</p>
+<h2 id="计算方法-1">计算方法</h2>
+<p>同上，前提条件大致相同</p>
+<p><span class="math display">\[\int_L P(x,y)dx+Q(x,y)dy = \int_{\alpha}^{\beta} \{ P[\varphi (t), \psi (t)] \varphi &#39;(t) + Q[\varphi (t), \psi (t)] \psi &#39;(t) \} dt \]</span></p>
+<h2 id="公式变形">公式变形</h2>
+<p>根据题目给出的y=f(x)，化简成x=啥，代入公式，然后进一步积分</p>
+<p><span class="math display">\[\int_L P(x,y)dx+Q(x,y)dy = \int_{a}^{b} \{ P[x, \psi (t)] + Q[x, \psi (t)] \psi &#39;(t) \} dx \]</span></p>
+<h2 id="推广到空间曲线">推广到空间曲线</h2>
+<p><span class="math display">\[\int_L P(x,y)dx+Q(x,y)dy+R(x,y)dz = \int_{\alpha}^{\beta} \{ P[\varphi (t), \psi (t), \omega (t)] \varphi &#39;(t) + Q[\varphi (t), \psi (t), \omega (t)] \psi &#39;(t) + R[\varphi (t), \psi (t), \omega (t)]\omega &#39;(t) \}dt\]</span></p>
+<h1 id="格林公式">格林公式</h1>
+<h2 id="使用条件">使用条件</h2>
+<p>区域内都要可导，且图形为逆时针</p>
+<h2 id="形式补充">形式（补充）</h2>
+<h1 id="对面积的曲面积分第一类曲面积分">对面积的曲面积分（第一类曲面积分）</h1>
 
     </div>
 
@@ -260,7 +283,8 @@
       <footer class="post-footer">
           <div class="post-tags">
               <a href="/tags/%E6%9C%AA%E5%AE%8C%E6%95%B4%E5%8D%9A%E5%AE%A2/" rel="tag"># 未完整博客</a>
-              <a href="/tags/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/" rel="tag"># 微分方程</a>
+              <a href="/tags/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86%E4%B8%8E%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/" rel="tag"># 曲线积分与曲面积分</a>
+              <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" rel="tag"># 高等数学</a>
           </div>
 
         
@@ -269,13 +293,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2020/03/10/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86%E4%B8%8E%E5%AE%9A%E7%A7%AF%E5%88%86/" rel="prev" title="不定积分与定积分">
-      <i class="fa fa-chevron-left"></i> 不定积分与定积分
+    <a href="/2020/05/11/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E6%B3%95%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/" rel="prev" title="多元函数微分法及其应用">
+      <i class="fa fa-chevron-left"></i> 多元函数微分法及其应用
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2020/04/20/%E5%90%91%E9%87%8F%E4%BB%A3%E6%95%B0%E4%B8%8E%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/" rel="next" title="向量代数与空间解析几何">
-      向量代数与空间解析几何 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -335,7 +356,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#可分离变量微分方程"><span class="nav-number">1.</span> <span class="nav-text">可分离变量微分方程</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#齐次方程"><span class="nav-number">2.</span> <span class="nav-text">齐次方程</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#一阶线性方程"><span class="nav-number">3.</span> <span class="nav-text">一阶线性方程</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#线性方程"><span class="nav-number">3.1.</span> <span class="nav-text">线性方程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#形式"><span class="nav-number">3.1.1.</span> <span class="nav-text">形式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#情况"><span class="nav-number">3.1.2.</span> <span class="nav-text">情况</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#通解形式"><span class="nav-number">3.1.3.</span> <span class="nav-text">通解形式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#伯努利方程"><span class="nav-number">3.2.</span> <span class="nav-text">伯努利方程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#形式与线性方程略有不同"><span class="nav-number">3.2.1.</span> <span class="nav-text">形式（与线性方程略有不同）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#通解形式-1"><span class="nav-number">3.2.2.</span> <span class="nav-text">通解形式</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#对弧长的曲线积分第一类曲线积分"><span class="nav-number">1.</span> <span class="nav-text">对弧长的曲线积分（第一类曲线积分）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#作用"><span class="nav-number">1.1.</span> <span class="nav-text">作用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#计算方法"><span class="nav-number">1.2.</span> <span class="nav-text">计算方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#推广到空间曲线弧"><span class="nav-number">1.3.</span> <span class="nav-text">推广到空间曲线弧</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#特殊情形"><span class="nav-number">1.4.</span> <span class="nav-text">特殊情形</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#二维"><span class="nav-number">1.4.1.</span> <span class="nav-text">二维</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三维"><span class="nav-number">1.4.2.</span> <span class="nav-text">三维</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#对坐标的曲线积分第二类曲线积分"><span class="nav-number">2.</span> <span class="nav-text">对坐标的曲线积分（第二类曲线积分）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#作用-1"><span class="nav-number">2.1.</span> <span class="nav-text">作用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#计算方法-1"><span class="nav-number">2.2.</span> <span class="nav-text">计算方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#公式变形"><span class="nav-number">2.3.</span> <span class="nav-text">公式变形</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#推广到空间曲线"><span class="nav-number">2.4.</span> <span class="nav-text">推广到空间曲线</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#格林公式"><span class="nav-number">3.</span> <span class="nav-text">格林公式</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#使用条件"><span class="nav-number">3.1.</span> <span class="nav-text">使用条件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#形式补充"><span class="nav-number">3.2.</span> <span class="nav-text">形式（补充）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#对面积的曲面积分第一类曲面积分"><span class="nav-number">4.</span> <span class="nav-text">对面积的曲面积分（第一类曲面积分）</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

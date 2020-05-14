@@ -175,6 +175,199 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/12/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86%E4%B8%8E%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="tSupan">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="tSupan">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/05/12/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86%E4%B8%8E%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/" class="post-title-link" itemprop="url">曲线积分与曲面积分</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-05-12 18:28:10" itemprop="dateCreated datePublished" datetime="2020-05-12T18:28:10+08:00">2020-05-12</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-05-13 12:05:02" itemprop="dateModified" datetime="2020-05-13T12:05:02+08:00">2020-05-13</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" itemprop="url" rel="index">
+                    <span itemprop="name">高等数学</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="对弧长的曲线积分第一类曲线积分">对弧长的曲线积分（第一类曲线积分）</h1>
+<h2 id="作用">作用</h2>
+<p>求弧长</p>
+<h2 id="计算方法">计算方法</h2>
+<p><span class="math display">\[
+\begin{cases}
+x=\varphi (t)\\\\
+y=\psi (t)
+\end{cases}
+(\alpha \leq t \leq \beta)
+\]</span> 前提条件：<span class="math inline">\(\varphi (t)\)</span>、<span class="math inline">\(\psi (t)\)</span>在<span class="math inline">\([\alpha,\beta]\)</span>有连续一阶导数，且<span class="math inline">\(\varphi &#39;^2(t) +\psi &#39;^2(t)\neq 0\)</span></p>
+<p>则 <span class="math display">\[\int_Lf(x,y)ds=\int_{\alpha}^{\beta}f[\varphi (t),\psi (t)]\sqrt{\varphi &#39;^2(t) +\psi &#39;^2(t)}dt \ \ (\alpha &lt; \beta)\]</span></p>
+<h2 id="推广到空间曲线弧">推广到空间曲线弧</h2>
+<p><span class="math display">\[\int_Lf(x,y,z)ds=\int_{\alpha}^{\beta}f[\varphi (t),\psi (t),\omega (t)]\sqrt{\varphi &#39;^2(t) +\psi &#39;^2(t)+\omega &#39;^2(t)}dt\ \ (\alpha &lt; \beta)\]</span></p>
+<h2 id="特殊情形">特殊情形</h2>
+<p>也就是说少了谁就函数对谁求导</p>
+<h3 id="二维">二维</h3>
+<p><span class="math display">\[\int_Lf(x,y)ds=\int_{0}^{x_0}f[x,\psi (x)]\sqrt{1 +\psi &#39;^2(x)}dx \ \ (x_0 &lt; X)\]</span> <span class="math display">\[\int_Lf(x,y)ds=\int_{0}^{y_0}f[\varphi (y),y]\sqrt{\varphi &#39;^2(y) + 1}dy \ \ (y_0 &lt; Y)\]</span></p>
+<h3 id="三维">三维</h3>
+<p><span class="math display">\[\int_Lf(x,y,z)ds=\int_{\alpha}^{\beta}f[\varphi (t),\psi (t),\omega (t)]\sqrt{\varphi &#39;^2(t) +\psi &#39;^2(t)+\omega &#39;^2(t)}dt\ \ (\alpha &lt; \beta)\]</span></p>
+<h1 id="对坐标的曲线积分第二类曲线积分">对坐标的曲线积分（第二类曲线积分）</h1>
+<h2 id="作用-1">作用</h2>
+<p>求做功（物理上）</p>
+<h2 id="计算方法-1">计算方法</h2>
+<p>同上，前提条件大致相同</p>
+<p><span class="math display">\[\int_L P(x,y)dx+Q(x,y)dy = \int_{\alpha}^{\beta} \{ P[\varphi (t), \psi (t)] \varphi &#39;(t) + Q[\varphi (t), \psi (t)] \psi &#39;(t) \} dt \]</span></p>
+<h2 id="公式变形">公式变形</h2>
+<p>根据题目给出的y=f(x)，化简成x=啥，代入公式，然后进一步积分</p>
+<p><span class="math display">\[\int_L P(x,y)dx+Q(x,y)dy = \int_{a}^{b} \{ P[x, \psi (t)] + Q[x, \psi (t)] \psi &#39;(t) \} dx \]</span></p>
+<h2 id="推广到空间曲线">推广到空间曲线</h2>
+<p><span class="math display">\[\int_L P(x,y)dx+Q(x,y)dy+R(x,y)dz = \int_{\alpha}^{\beta} \{ P[\varphi (t), \psi (t), \omega (t)] \varphi &#39;(t) + Q[\varphi (t), \psi (t), \omega (t)] \psi &#39;(t) + R[\varphi (t), \psi (t), \omega (t)]\omega &#39;(t) \}dt\]</span></p>
+<h1 id="格林公式">格林公式</h1>
+<h2 id="使用条件">使用条件</h2>
+<p>区域内都要可导，且图形为逆时针</p>
+<h2 id="形式补充">形式（补充）</h2>
+<h1 id="对面积的曲面积分第一类曲面积分">对面积的曲面积分（第一类曲面积分）</h1>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/11/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E6%B3%95%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="tSupan">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="tSupan">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/05/11/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E6%B3%95%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/" class="post-title-link" itemprop="url">多元函数微分法及其应用</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-05-11 20:49:30 / 修改时间：21:49:53" itemprop="dateCreated datePublished" datetime="2020-05-11T20:49:30+08:00">2020-05-11</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" itemprop="url" rel="index">
+                    <span itemprop="name">高等数学</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="多元函数的基本概念">多元函数的基本概念</h1>
+<h2 id="二重极限两种表达形式">二重极限（两种表达形式）</h2>
+<p><span class="math display">\[\lim_{(x,y)\rightarrow (x_0,y_0)}f(x,y)=A\text{（面积）}\]</span></p>
+<p><span class="math display">\[\lim_{P\rightarrow P_0}f(P)=A\text{（面积）}\]</span></p>
+<h2 id="连续性">连续性</h2>
+<p><span class="math display">\[\lim_{(x,y)\rightarrow (x_0,y_0)}f(x,y)=f(x_0,y_0)\]</span> 称函数<span class="math inline">\(f(x,y)\)</span>在点<span class="math inline">\(P_0(x_0,y_0)\)</span>连续</p>
+<h1 id="微分">微分</h1>
+<h2 id="偏导数">偏导数</h2>
+<p>一个导数微分</p>
+<h2 id="高阶偏导数">高阶偏导数</h2>
+<p>微分再微分</p>
+<h2 id="全微分">全微分</h2>
+<p>偏导数微分相加</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/04/20/%E5%90%91%E9%87%8F%E4%BB%A3%E6%95%B0%E4%B8%8E%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -198,10 +391,16 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-04-20 21:21:19 / 修改时间：23:51:10" itemprop="dateCreated datePublished" datetime="2020-04-20T21:21:19+08:00">2020-04-20</time>
+              <time title="创建时间：2020-04-20 21:21:19" itemprop="dateCreated datePublished" datetime="2020-04-20T21:21:19+08:00">2020-04-20</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-04-21 22:59:28" itemprop="dateModified" datetime="2020-04-21T22:59:28+08:00">2020-04-21</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
@@ -271,6 +470,8 @@
 <p>方向向量s(m,n,p)与法向量n(a,b,c)的<span class="math inline">\(\cos \alpha\)</span>的绝对值，也就是<span class="math inline">\(\sin \alpha\)</span></p>
 <h2 id="平面束略过暂时不懂后面补充同济高数下册p35">平面束（略过暂时不懂后面补充，同济高数下册P35）</h2>
 <h1 id="曲面方程暂时不补p37">曲面方程（暂时不补，P37）</h1>
+<h1 id="其他">其他</h1>
+<p>单位向量计算：<span class="math inline">\(e=\frac{l}{|l|}\)</span></p>
 
       
     </div>
@@ -410,7 +611,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-04-08 17:53:24" itemprop="dateModified" datetime="2020-04-08T17:53:24+08:00">2020-04-08</time>
+                <time title="修改时间：2020-05-14 15:53:47" itemprop="dateModified" datetime="2020-05-14T15:53:47+08:00">2020-05-14</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -497,6 +698,8 @@
 \frac{n-1}{n}*\frac{n-3}{n-2}*...*\frac{4}{5}*\frac{2}{3}, \text{n为正奇数}
 \end{cases}
 \]</span></p>
+<h2 id="换元公式重要计算公式">换元公式（重要计算公式）</h2>
+<p><span class="math display">\[\int_{\alpha}^{\beta}f(x)=\int_{\alpha}^{\beta}f[g(t)]g&#39;(t)dt\]</span></p>
 <h1 id="反常积分">反常积分</h1>
 <h2 id="无界函数反常积分">无界函数反常积分</h2>
 <p>f(x)中当x逼近a时函数没有极值，点a则为瑕点，这个函数的反常积分则叫瑕积分</p>
@@ -1130,184 +1333,12 @@ n!  &amp; n=\mu \\
   
   
 
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/06/KMP%E7%AE%97%E6%B3%95/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="tSupan">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="tSupan">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/01/06/KMP%E7%AE%97%E6%B3%95/" class="post-title-link" itemprop="url">KMP算法</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-01-06 11:58:45" itemprop="dateCreated datePublished" datetime="2020-01-06T11:58:45+08:00">2020-01-06</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-10-24 18:12:39" itemprop="dateModified" datetime="2019-10-24T18:12:39+08:00">2019-10-24</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" itemprop="url" rel="index">
-                    <span itemprop="name">数据结构与算法</span>
-                  </a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="kmp算法">KMP算法</h1>
-<p>现有字符串A,B A为文本，B为匹配字符</p>
-<h2 id="自己匹配自己">自己匹配自己</h2>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">next[1] &#x3D; 0</span><br><span class="line"></span><br><span class="line">k &#x3D; 0</span><br><span class="line"></span><br><span class="line">for i &#x3D; 2 to B.length()</span><br><span class="line">	while k &gt; 0 &amp;&amp; B[k + 1] !&#x3D; B[i]</span><br><span class="line">		k &#x3D; next[k]</span><br><span class="line">	</span><br><span class="line">	if B[k + 1] &#x3D;&#x3D; B[i]</span><br><span class="line">		k++</span><br><span class="line"></span><br><span class="line">	next[i] &#x3D; k;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>或者是</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">void getnext_v() &#123;</span><br><span class="line">	int j, k, len &#x3D; strlen(s);</span><br><span class="line"></span><br><span class="line">	j &#x3D; 0;</span><br><span class="line">	k &#x3D; -1;</span><br><span class="line">	Next[0] &#x3D; -1;</span><br><span class="line">	while(j &lt; len) &#123;</span><br><span class="line">		if (k &#x3D;&#x3D; -1 || s[j] &#x3D;&#x3D; s[k]) &#123;</span><br><span class="line">			j++;</span><br><span class="line">			k++;</span><br><span class="line">			Next[j] &#x3D; k;</span><br><span class="line">		&#125;</span><br><span class="line">		else &#123;</span><br><span class="line">			k &#x3D; Next[k];</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="目标串匹配文本">目标串匹配文本</h2>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">k &#x3D; 0</span><br><span class="line"></span><br><span class="line">for i &#x3D; 1 to A.length()</span><br><span class="line">	while k &gt; 0 &amp;&amp; B[k + 1] !&#x3D; A[i]</span><br><span class="line">		k &#x3D; next[k]</span><br><span class="line"></span><br><span class="line">	if B[k + 1] &#x3D;&#x3D; A[i]</span><br><span class="line">		k++</span><br><span class="line"></span><br><span class="line">	&#x2F;&#x2F;匹配到相应字符串</span><br><span class="line">	if k &#x3D;&#x3D; m:</span><br><span class="line">		&#x2F;&#x2F;匹配到的字符串起始位置		</span><br><span class="line">		pos &#x3D; i - m + 1</span><br><span class="line">		</span><br><span class="line">		&#x2F;&#x2F;寻找下一个位置</span><br><span class="line">		k &#x3D; next[k]</span><br></pre></td></tr></table></figure>
-<h2 id="next数组理解">Next数组理解</h2>
-<p>例题：POJ-2752</p>
-<p>题目大意：求一个字符串的子串是和字符串相同前后缀的位置</p>
-<p>根据Next数组，回溯Next数组代表着从当前的第k个到Next[k]指向的位置，字符串的前缀字符子串和当前部分字符子串是相等的。</p>
-<p>程序代码： <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;cmath&gt;</span><br><span class="line">#include &lt;algorithm&gt;</span><br><span class="line">#include &lt;cstring&gt;</span><br><span class="line">#include &lt;vector&gt;</span><br><span class="line">#include &lt;string&gt;</span><br><span class="line">#include &lt;cstdio&gt;</span><br><span class="line">#include &lt;stack&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">typedef long long ll;</span><br><span class="line"></span><br><span class="line">const int inf &#x3D; 0x3f3f3f3f;</span><br><span class="line">const int MAXN &#x3D; 1000005;</span><br><span class="line"> </span><br><span class="line">string s;</span><br><span class="line">int fail[MAXN];</span><br><span class="line">int ans[MAXN];</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">	ios::sync_with_stdio(false);</span><br><span class="line">	cin.tie(0);</span><br><span class="line">	cout.tie(0);</span><br><span class="line"></span><br><span class="line">	while (cin &gt;&gt; s) &#123;</span><br><span class="line">		fail[0] &#x3D; -1;</span><br><span class="line"></span><br><span class="line">		int k &#x3D; -1;</span><br><span class="line">		</span><br><span class="line">		&#x2F;&#x2F;KMP匹配部分，其中Next数组（也即这里的fail数组，下面都称为fail数组）下标i对应的是字符串的i-1位</span><br><span class="line">		for (int i &#x3D; 0; i &lt; s.size();) &#123;</span><br><span class="line">			if (k &#x3D;&#x3D; -1 || s[i] &#x3D;&#x3D; s[k]) &#123;</span><br><span class="line">				i++, k++;</span><br><span class="line">				fail[i] &#x3D; k;</span><br><span class="line">			&#125;</span><br><span class="line">			else &#123;</span><br><span class="line">				k &#x3D; fail[k];</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		&#x2F;&#x2F;调试输出fail数组部分</span><br><span class="line">		&#x2F;*for (int i &#x3D; 0; i &lt;&#x3D; s.size(); i++) &#123;</span><br><span class="line">			printf(&quot;%d &quot;, fail[i]);</span><br><span class="line">		&#125;</span><br><span class="line">		printf(&quot;\n&quot;);*&#x2F;</span><br><span class="line">		&#x2F;&#x2F;printf(&quot;%s&quot;, s);</span><br><span class="line"></span><br><span class="line">		&#x2F;&#x2F;回溯部分</span><br><span class="line">		int pos &#x3D; s.size();</span><br><span class="line">		stack &lt;int&gt; st;</span><br><span class="line">		while (pos &gt; 0) &#123;</span><br><span class="line">			st.push(pos);</span><br><span class="line">			pos &#x3D; fail[pos];</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		&#x2F;&#x2F;cout &lt;&lt; st.size() &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">		while (!st.empty()) &#123;</span><br><span class="line">			cout &lt;&lt; st.top() &lt;&lt; &quot; &quot;;</span><br><span class="line">			st.pop();</span><br><span class="line"></span><br><span class="line">			first &#x3D; false;</span><br><span class="line">		&#125;</span><br><span class="line">		cout &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<h1 id="扩展kmp算法">扩展KMP算法</h1>
-<p>next所代表的意思是接下来有几个字符是可以匹配到的</p>
-<p>比如aaaaab，自己匹配自己后，next数组的值为6 4 3 2 1 0</p>
-<p>如果用普通KMP匹配的话，next数组的值则会为0 1 2 3 4 0</p>
-<p>例题模板（HDU-2594）部分</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br></pre></td><td class="code"><pre><span class="line">while (cin &gt;&gt; a &gt;&gt; b) &#123;</span><br><span class="line">		Next[0] &#x3D; a.size();</span><br><span class="line"></span><br><span class="line">		&#x2F;&#x2F;前面</span><br><span class="line">		int q &#x3D; 0;</span><br><span class="line">		int p &#x3D; 0;</span><br><span class="line"></span><br><span class="line">		&#x2F;&#x2F;扩展KMP自己匹配自己过程（也既a匹配a）</span><br><span class="line">		for (int i &#x3D; 1; i &lt; a.size(); i++) &#123;</span><br><span class="line">			if (i &gt;&#x3D; p || i + Next[i - q] &gt;&#x3D; p) &#123;</span><br><span class="line">				if (i &gt;&#x3D; p) &#123;</span><br><span class="line">					p &#x3D; i;</span><br><span class="line">				&#125;</span><br><span class="line"></span><br><span class="line">				while (p &lt; a.size() &amp;&amp; a[p] &#x3D;&#x3D; a[p - i]) &#123;</span><br><span class="line">					p++;</span><br><span class="line">				&#125;</span><br><span class="line">				</span><br><span class="line">				Next[i] &#x3D; p - i;</span><br><span class="line">				q &#x3D; i;</span><br><span class="line">			&#125;</span><br><span class="line">			else &#123;</span><br><span class="line">				Next[i] &#x3D; Next[i - q];</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		q &#x3D; 0, p &#x3D; 0;</span><br><span class="line"></span><br><span class="line">		&#x2F;&#x2F;扩展KMP a匹配b过程</span><br><span class="line">		for (int i &#x3D; 0; i &lt; b.size(); i++) &#123;</span><br><span class="line">			if (i &gt;&#x3D; p || i + Next[i - q] &gt;&#x3D; p) &#123;</span><br><span class="line">				if (i &gt;&#x3D; p) &#123;</span><br><span class="line">					p &#x3D; i;</span><br><span class="line">				&#125;</span><br><span class="line">				while (p &lt; b.size() &amp;&amp; p - i &lt; a.size() &amp;&amp; b[p] &#x3D;&#x3D; a[p - i]) &#123;</span><br><span class="line">					p++;</span><br><span class="line">				&#125;</span><br><span class="line">				Extend[i] &#x3D; p - i;</span><br><span class="line">				q &#x3D; i;</span><br><span class="line">			&#125;</span><br><span class="line">			else &#123;</span><br><span class="line">				Extend[i] &#x3D; Next[i - q];</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		int ret &#x3D; 0;</span><br><span class="line"></span><br><span class="line">		for (int i &#x3D; 0; i &lt; b.size(); i++) &#123;</span><br><span class="line">			if (Extend[i] &gt; ret &amp;&amp; Extend[i] + i &#x3D;&#x3D; b.size()) &#123;</span><br><span class="line">				ret &#x3D; Extend[i];</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		&#x2F;*if (!ret) &#123;</span><br><span class="line">			cout &lt;&lt; 0 &lt;&lt; endl;</span><br><span class="line">		&#125;</span><br><span class="line">		else &#123;</span><br><span class="line">			for (int i &#x3D; b.size() - ret; i &lt; b.size(); i++) &#123;</span><br><span class="line">				cout &lt;&lt; b[i];</span><br><span class="line">			&#125;</span><br><span class="line">			cout &lt;&lt; &quot; &quot; &lt;&lt; ret &lt;&lt; endl;</span><br><span class="line">		&#125;*&#x2F;</span><br><span class="line"></span><br><span class="line">		&#x2F;&#x2F; 打印 next</span><br><span class="line">		cout &lt;&lt; &quot;next:   &quot;;</span><br><span class="line">		for (int i &#x3D; 0; i &lt; a.size(); i++)</span><br><span class="line">			cout &lt;&lt; Next[i] &lt;&lt; &quot; &quot;;</span><br><span class="line"></span><br><span class="line">		&#x2F;&#x2F; 打印 extend</span><br><span class="line">		cout &lt;&lt; &quot;\nextend: &quot;;</span><br><span class="line">		for (int i &#x3D; 0; i &lt; b.size(); i++)</span><br><span class="line">			cout &lt;&lt; Extend[i] &lt;&lt; &quot; &quot;;</span><br><span class="line"></span><br><span class="line">		cout &lt;&lt; endl &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/06/AC%E8%87%AA%E5%8A%A8%E6%9C%BA/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="tSupan">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="tSupan">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/01/06/AC%E8%87%AA%E5%8A%A8%E6%9C%BA/" class="post-title-link" itemprop="url">AC自动机</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-01-06 11:58:45" itemprop="dateCreated datePublished" datetime="2020-01-06T11:58:45+08:00">2020-01-06</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-11-13 11:03:29" itemprop="dateModified" datetime="2019-11-13T11:03:29+08:00">2019-11-13</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" itemprop="url" rel="index">
-                    <span itemprop="name">数据结构与算法</span>
-                  </a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="前记">前记</h1>
-<p><a href="https://oi-wiki.org/string/ac-automaton/" target="_blank" rel="noopener" title="OI wiki的链接">https://oi-wiki.org/string/minimal-string/</a> 讲道理这个链接我看不太明白，然后又转到csdn的博客学习了一波</p>
-<h1 id="算法介绍">算法介绍</h1>
-<p>多模匹配算法，多单词匹配一个字符串算法。</p>
-<h1 id="算法代码">算法代码</h1>
-<p>例题HDU - 2222 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;bits&#x2F;stdc++.h&gt;</span><br><span class="line"></span><br><span class="line">using namespace std;</span><br><span class="line">typedef long long ll;</span><br><span class="line"></span><br><span class="line">const int maxn &#x3D; 1e3 + 50;</span><br><span class="line"></span><br><span class="line">struct Node&#123;</span><br><span class="line">    int cnt;</span><br><span class="line">    Node *fail;</span><br><span class="line">    Node *next[26];</span><br><span class="line">&#125;*q[500005];&#x2F;&#x2F;q为一个模拟队列，可以用队列</span><br><span class="line">char s[1000005];</span><br><span class="line">char keyword[55];</span><br><span class="line">Node *root;</span><br><span class="line"></span><br><span class="line">void Init(Node *root)&#123;</span><br><span class="line">    root-&gt;cnt&#x3D;0;</span><br><span class="line">    root-&gt;fail&#x3D;NULL;</span><br><span class="line">    for(int i &#x3D; 0; i &lt; 26; i++)&#123;</span><br><span class="line">        root-&gt;next[i]&#x3D;NULL;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;建立字典树</span><br><span class="line">void Build_trie(char *keyword)&#123;</span><br><span class="line">    Node *p, *q;</span><br><span class="line">    int i, v;</span><br><span class="line">    int len &#x3D; strlen(keyword);</span><br><span class="line"></span><br><span class="line">    for(i &#x3D; 0, p &#x3D; root; i &lt; len; i++)&#123;</span><br><span class="line">        v &#x3D; keyword[i]-&#39;a&#39;;</span><br><span class="line">        if(p-&gt;next[v] &#x3D;&#x3D; NULL)&#123;</span><br><span class="line">&#x2F;&#x2F;          分配一块内存空间给q</span><br><span class="line">            q &#x3D; (struct Node *)malloc(sizeof(Node));</span><br><span class="line">            Init(q);</span><br><span class="line">            p-&gt;next[v] &#x3D; q;</span><br><span class="line">        &#125;</span><br><span class="line">        p&#x3D;p-&gt;next[v];</span><br><span class="line">    &#125;</span><br><span class="line">&#x2F;&#x2F;    单词的最后一个字母节点cnt++，代表一个完整单词</span><br><span class="line">    p-&gt;cnt++;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;建立ac自动机</span><br><span class="line">void Build_AC_automation(Node *root)&#123;</span><br><span class="line">&#x2F;&#x2F;    队列头尾指针</span><br><span class="line">    int head &#x3D; 0, tail &#x3D; 0;</span><br><span class="line">&#x2F;&#x2F;    现将root入队q</span><br><span class="line">    q[head++] &#x3D; root;</span><br><span class="line">    while(head !&#x3D; tail)&#123;</span><br><span class="line">        Node *p &#x3D; NULL;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;        弹出队头节点</span><br><span class="line">        Node *temp &#x3D; q[tail++];</span><br><span class="line"></span><br><span class="line">        for(int i &#x3D; 0; i &lt; 26; i++)&#123;</span><br><span class="line">            if(temp-&gt;next[i] !&#x3D; NULL)&#123;</span><br><span class="line">                if(temp &#x3D;&#x3D; root)&#123;</span><br><span class="line">&#x2F;&#x2F;                    如弹出队列的为根节点</span><br><span class="line">                    temp-&gt;next[i]-&gt;fail&#x3D;root;</span><br><span class="line">                &#125;</span><br><span class="line">                else&#123;</span><br><span class="line">                    p&#x3D;temp-&gt;fail;</span><br><span class="line">                    while(p !&#x3D; NULL)&#123;</span><br><span class="line">                        if(p-&gt;next[i] !&#x3D; NULL)&#123;</span><br><span class="line">                            temp-&gt;next[i]-&gt;fail&#x3D;p-&gt;next[i];</span><br><span class="line">                            break;</span><br><span class="line">                        &#125;</span><br><span class="line">                        p&#x3D;p-&gt;fail;</span><br><span class="line">                    &#125;</span><br><span class="line"></span><br><span class="line">                    if(p &#x3D;&#x3D; NULL)&#123;</span><br><span class="line">                        temp-&gt;next[i]-&gt;fail &#x3D; root;</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;</span><br><span class="line">                q[head++]&#x3D;temp-&gt;next[i];</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int query(Node *root)&#123;</span><br><span class="line">&#x2F;&#x2F;    i为主串指针，p为模式串指针</span><br><span class="line">    int i, v, cnt &#x3D; 0;</span><br><span class="line">    Node *p &#x3D; root;</span><br><span class="line">    int len &#x3D; strlen(s);</span><br><span class="line">    for(i &#x3D; 0; i &lt; len; i++)&#123;</span><br><span class="line">        v&#x3D;s[i] - &#39;a&#39;;</span><br><span class="line">&#x2F;&#x2F;        失败指针回溯查找，判断s[i]是否存在于字典树中</span><br><span class="line">        while(p-&gt;next[v] &#x3D;&#x3D; NULL &amp;&amp; p !&#x3D; root)&#123;</span><br><span class="line">            p&#x3D;p-&gt;fail;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        p&#x3D;p-&gt;next[v];</span><br><span class="line"></span><br><span class="line">        if(p &#x3D;&#x3D; NULL)&#123;</span><br><span class="line">            p &#x3D; root;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        Node *temp &#x3D; p;</span><br><span class="line">        while(temp !&#x3D; root)&#123;</span><br><span class="line">            if(temp-&gt;cnt &gt;&#x3D; 0)&#123;</span><br><span class="line">                cnt +&#x3D; temp-&gt;cnt;</span><br><span class="line">                temp-&gt;cnt&#x3D; -1;</span><br><span class="line">            &#125;</span><br><span class="line">            else&#123;</span><br><span class="line">                break;</span><br><span class="line">            &#125;</span><br><span class="line">            temp&#x3D;temp-&gt;fail;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    return cnt;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    ios::sync_with_stdio(false);</span><br><span class="line">    cin.tie(0);</span><br><span class="line">    cout.tie(0);</span><br><span class="line"></span><br><span class="line">    int T, n;</span><br><span class="line">    scanf(&quot;%d&quot;, &amp;T);</span><br><span class="line">    while(T--)&#123;</span><br><span class="line">        root &#x3D; (struct Node *)malloc(sizeof(Node));</span><br><span class="line">        Init(root);</span><br><span class="line">        scanf(&quot;%d&quot;, &amp;n);</span><br><span class="line">        for(int i &#x3D; 0; i &lt; n; i++)&#123;</span><br><span class="line">            scanf(&quot;\n%s&quot;, keyword);</span><br><span class="line">            Build_trie(keyword);</span><br><span class="line">        &#125;</span><br><span class="line">        Build_AC_automation(root);</span><br><span class="line">        scanf(&quot;\n%s&quot;, s);</span><br><span class="line">        printf(&quot;%d\n&quot;, query(root));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
   </div>
 
   
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+  </nav>
 
 
 
@@ -1372,7 +1403,7 @@ n!  &amp; n=\mu \\
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">10</span>
+          <span class="site-state-item-count">12</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -1385,7 +1416,7 @@ n!  &amp; n=\mu \\
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-count">18</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
