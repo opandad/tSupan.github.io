@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-13T04:05:02.335Z</updated>
+  <updated>2020-05-17T09:54:14.509Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>级数</title>
+    <link href="http://yoursite.com/2020/05/17/%E7%BA%A7%E6%95%B0/"/>
+    <id>http://yoursite.com/2020/05/17/级数/</id>
+    <published>2020-05-17T09:00:01.423Z</published>
+    <updated>2020-05-17T09:54:14.509Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="概念和性质">概念和性质</h1><p>类似于小学学的无理数</p><p>例子：0.9999999999999...9</p><p>级数：<span class="math inline">\(\sum_{i=1}^{∞}u_i\)</span></p><p>级数极限：<span class="math inline">\(\lim_{n\rightarrow ∞}s_n=s\)</span></p><p>级数每一项记为：<span class="math inline">\(u_n\)</span></p><h2 id="定义">定义</h2><p>级数<span class="math inline">\(\sum_{i=1}^{∞}u_i\)</span>的部分和<span class="math inline">\(s_n\)</span>有极限的话，该级数收敛；如果没有极限，则为发散。</p><h2 id="等比级数几何级数">等比级数（几何级数）</h2><p><span class="math display">\[\sum_{i=1}^{∞}aq^i = \begin{cases}\text{发散}\ \ |q|\ge 1 \\\text{收敛于}\frac{aq}{1-q}\ \ |q|&lt;1\end{cases}\]</span></p><h2 id="必要条件">必要条件</h2><p>如果级数收敛，一般项<span class="math inline">\(u_n\)</span>趋于0f <span class="math display">\[\lim_{n\rightarrow ∞}=0\]</span></p><h2 id="调和级数需记">调和级数（需记）</h2><p>调和级数<span class="math inline">\(\sum_{i=1}^{∞}\frac{1}{n}\)</span>发散</p><h2 id="柯西审敛原理空">柯西审敛原理（空）</h2><h1 id="常数项级数">常数项级数</h1><h2 id="审敛法重要">审敛法（重要）</h2><h3 id="比较审敛法">比较审敛法</h3><p><span class="math inline">\(a_n\le b_n\)</span>，且b级数收敛，则a级数收敛</p><p><span class="math inline">\(a_n\ge b_n\)</span>，且b级数发散，则a级数发散</p><h4 id="极限形式">极限形式</h4><p><span class="math inline">\(\lim_{n\rightarrow ∞}\frac{u_n}{v_n}=l\ \ (0\le l &lt; +∞)\)</span>，且v级数收敛，则u级数收敛</p><p><span class="math inline">\(\lim_{n\rightarrow ∞}\frac{u_n}{v_n}=l &gt; 0\)</span>或<span class="math inline">\(\lim_{n\rightarrow ∞}\frac{u_n}{v_n}= +∞\)</span>，且v级数发散，则u级数发散</p><h3 id="比值审敛法">比值审敛法</h3><p>有级数为正项级数<span class="math inline">\(\sum_{n=1}^{∞}u_n\)</span></p><p><span class="math display">\[\lim_{n\rightarrow ∞}\frac{u_{n+1}}{u_n}=\rho\]</span></p><p><span class="math inline">\(\rho &lt; 1\)</span>收敛，<span class="math inline">\(\rho &gt; 1\ \ \text{或}\ \ \lim_{n\rightarrow ∞}\frac{u_{n+1}}{u_n}=∞\)</span>发散，<span class="math inline">\(\rho = 1\)</span>不确定</p><h3 id="根值审敛法柯西判别法">根值审敛法（柯西判别法）</h3><p>有级数为正项级数<span class="math inline">\(\sum_{n=1}^{∞}u_n\)</span></p><p><span class="math display">\[\lim_{n\rightarrow ∞}\sqrt[n]{u_n}=\rho\]</span></p><p><span class="math inline">\(\rho &lt; 1\)</span>收敛，<span class="math inline">\(\rho &gt; 1\ \ \text{或}\ \ \lim_{n\rightarrow ∞}\frac{u_{n+1}}{u_n}=∞\)</span>发散，<span class="math inline">\(\rho = 1\)</span>不确定</p><h3 id="极限审敛法">极限审敛法</h3><p>有级数为正项级数<span class="math inline">\(\sum_{n=1}^{∞}u_n\)</span></p><h4 id="情况1">情况1</h4><p><span class="math display">\[\lim_{n\rightarrow ∞}nu_n=l&gt;0\ \text{或}\ =+∞\]</span></p><p>级数发散</p><h4 id="情况2">情况2</h4><p><span class="math inline">\(p&gt;1\)</span></p><p><span class="math display">\[\lim_{n\rightarrow ∞}n^p u_n=l \ \ (0\le l &lt; +∞)\]</span></p><p>级数收敛</p><h2 id="交错级数及审敛法">交错级数及审敛法</h2><h3 id="莱布尼兹定理审敛法之一">莱布尼兹定理（审敛法之一）</h3><p>交错级数<span class="math inline">\(\sum_{n=1}^{∞}(-1)^{n-1}u_n\)</span>满足下面条件则为收敛：</p><ol type="1"><li><p><span class="math inline">\(u_n \ge u_{n+1}\ \ (n=1,2,3,...,n)\)</span></p></li><li><p><span class="math inline">\(\lim_{n\rightarrow ∞}=0\)</span></p></li></ol><p>并且级数其和<span class="math inline">\(s \le u_1\)</span>，余项<span class="math inline">\(r_n\)</span>的绝对值<span class="math inline">\(|r_n| \le u_{n+1}\)</span></p><h2 id="绝对收敛和条件收敛">绝对收敛和条件收敛</h2><p>前提：级数本身是收敛的</p><p>级数加绝对值符号，如果级数还收敛，则为绝对收敛；如果加绝对值符号后的级数发散，则为条件收敛。</p><p>A推B： <span class="math display">\[\text{绝对收敛}\rightarrow \text{必定收敛}\]</span></p><h1 id="幂级数空">幂级数（空）</h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;概念和性质&quot;&gt;概念和性质&lt;/h1&gt;
+&lt;p&gt;类似于小学学的无理数&lt;/p&gt;
+&lt;p&gt;例子：0.9999999999999...9&lt;/p&gt;
+&lt;p&gt;级数：&lt;span class=&quot;math inline&quot;&gt;\(\sum_{i=1}^{∞}u_i\)&lt;/span&gt;&lt;/p
+      
+    
+    </summary>
+    
+      <category term="高等数学" scheme="http://yoursite.com/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="未完整博客" scheme="http://yoursite.com/tags/%E6%9C%AA%E5%AE%8C%E6%95%B4%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="定积分" scheme="http://yoursite.com/tags/%E5%AE%9A%E7%A7%AF%E5%88%86/"/>
+    
+      <category term="级数" scheme="http://yoursite.com/tags/%E7%BA%A7%E6%95%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>曲线积分与曲面积分</title>

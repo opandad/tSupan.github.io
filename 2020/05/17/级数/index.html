@@ -46,21 +46,22 @@
   };
 </script>
 
-  <meta name="description" content="可分离变量微分方程 \(\frac{dy}{dx}&#x3D;\frac{y}{x}\)化成\(\frac{dy}{y}&#x3D;\frac{dx}{x}\)，也就是y一边，x化一边，再积分 齐次方程 \(\frac{dy}{dx}\)等号右边可以化成关于\(\frac{y}{x}\)的函数，就是齐次方程 一阶线性方程 线性方程 形式 \[\frac{dy}{dx}+P(x)y&#x3D;Q(x)\] 情况">
+  <meta name="description" content="概念和性质 类似于小学学的无理数 例子：0.9999999999999...9 级数：\(\sum_{i&#x3D;1}^{∞}u_i\) 级数极限：\(\lim_{n\rightarrow ∞}s_n&#x3D;s\) 级数每一项记为：\(u_n\) 定义 级数\(\sum_{i&#x3D;1}^{∞}u_i\)的部分和\(s_n\)有极限的话，该级数收敛；如果没有极限，则为发散。 等比级数（几何级数） \">
 <meta property="og:type" content="article">
-<meta property="og:title" content="微分方程">
-<meta property="og:url" content="http://yoursite.com/2020/04/08/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/index.html">
+<meta property="og:title" content="级数">
+<meta property="og:url" content="http://yoursite.com/2020/05/17/%E7%BA%A7%E6%95%B0/index.html">
 <meta property="og:site_name" content="tSupan">
-<meta property="og:description" content="可分离变量微分方程 \(\frac{dy}{dx}&#x3D;\frac{y}{x}\)化成\(\frac{dy}{y}&#x3D;\frac{dx}{x}\)，也就是y一边，x化一边，再积分 齐次方程 \(\frac{dy}{dx}\)等号右边可以化成关于\(\frac{y}{x}\)的函数，就是齐次方程 一阶线性方程 线性方程 形式 \[\frac{dy}{dx}+P(x)y&#x3D;Q(x)\] 情况">
+<meta property="og:description" content="概念和性质 类似于小学学的无理数 例子：0.9999999999999...9 级数：\(\sum_{i&#x3D;1}^{∞}u_i\) 级数极限：\(\lim_{n\rightarrow ∞}s_n&#x3D;s\) 级数每一项记为：\(u_n\) 定义 级数\(\sum_{i&#x3D;1}^{∞}u_i\)的部分和\(s_n\)有极限的话，该级数收敛；如果没有极限，则为发散。 等比级数（几何级数） \">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-04-08T09:54:42.371Z">
-<meta property="article:modified_time" content="2020-04-08T12:24:41.136Z">
+<meta property="article:published_time" content="2020-05-17T09:00:01.423Z">
+<meta property="article:modified_time" content="2020-05-17T09:54:14.509Z">
 <meta property="article:author" content="tSupan">
 <meta property="article:tag" content="未完整博客">
-<meta property="article:tag" content="微分方程">
+<meta property="article:tag" content="定积分">
+<meta property="article:tag" content="级数">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://yoursite.com/2020/04/08/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/">
+<link rel="canonical" href="http://yoursite.com/2020/05/17/%E7%BA%A7%E6%95%B0/">
 
 
 <script id="page-configurations">
@@ -72,7 +73,7 @@
   };
 </script>
 
-  <title>微分方程 | tSupan</title>
+  <title>级数 | tSupan</title>
   
 
 
@@ -181,7 +182,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/04/08/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/17/%E7%BA%A7%E6%95%B0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -194,7 +195,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          微分方程
+          级数
         </h1>
 
         <div class="post-meta">
@@ -205,7 +206,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-04-08 17:54:42 / 修改时间：20:24:41" itemprop="dateCreated datePublished" datetime="2020-04-08T17:54:42+08:00">2020-04-08</time>
+              <time title="创建时间：2020-05-17 17:00:01 / 修改时间：17:54:14" itemprop="dateCreated datePublished" datetime="2020-05-17T17:00:01+08:00">2020-05-17</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -230,26 +231,64 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="可分离变量微分方程">可分离变量微分方程</h1>
-<p><span class="math inline">\(\frac{dy}{dx}=\frac{y}{x}\)</span>化成<span class="math inline">\(\frac{dy}{y}=\frac{dx}{x}\)</span>，也就是y一边，x化一边，再积分</p>
-<h1 id="齐次方程">齐次方程</h1>
-<p><span class="math inline">\(\frac{dy}{dx}\)</span>等号右边可以化成关于<span class="math inline">\(\frac{y}{x}\)</span>的函数，就是齐次方程</p>
-<h1 id="一阶线性方程">一阶线性方程</h1>
-<h2 id="线性方程">线性方程</h2>
-<h3 id="形式">形式</h3>
-<p><span class="math display">\[\frac{dy}{dx}+P(x)y=Q(x)\]</span></p>
-<h3 id="情况">情况</h3>
-<p>Q(x)为0则为齐次，否则为非齐次</p>
-<h3 id="通解形式">通解形式</h3>
-<p><span class="math display">\[y=e^{-\int P(x)dx}\left( \int Q(x)e^{\int P(x)dx}dx+C \right)\]</span></p>
-<h2 id="伯努利方程">伯努利方程</h2>
-<h3 id="形式与线性方程略有不同">形式（与线性方程略有不同）</h3>
-<p><span class="math display">\[\frac{dy}{dx}+P(x)y=Q(x)y^n\]</span></p>
-<h3 id="通解形式-1">通解形式</h3>
-<p>方法：</p>
-<p>1.y^n往等号左边移动，变<span class="math inline">\(\frac{dy}{dx}y^{-n}+P(x)y^{1-n}=Q(x)\)</span></p>
-<p>2.令<span class="math inline">\(z=y^{1-n}\)</span>，求导代回1中的方程，得到<span class="math inline">\(\frac{dz}{dx}+(1-n)P(x)z=(1-n)Q(x)\)</span></p>
-<p>3.用线性方程通解形式求解，然后再把2中的z代回求解后的方程</p>
+        <h1 id="概念和性质">概念和性质</h1>
+<p>类似于小学学的无理数</p>
+<p>例子：0.9999999999999...9</p>
+<p>级数：<span class="math inline">\(\sum_{i=1}^{∞}u_i\)</span></p>
+<p>级数极限：<span class="math inline">\(\lim_{n\rightarrow ∞}s_n=s\)</span></p>
+<p>级数每一项记为：<span class="math inline">\(u_n\)</span></p>
+<h2 id="定义">定义</h2>
+<p>级数<span class="math inline">\(\sum_{i=1}^{∞}u_i\)</span>的部分和<span class="math inline">\(s_n\)</span>有极限的话，该级数收敛；如果没有极限，则为发散。</p>
+<h2 id="等比级数几何级数">等比级数（几何级数）</h2>
+<p><span class="math display">\[\sum_{i=1}^{∞}aq^i = 
+\begin{cases}
+\text{发散}\ \ |q|\ge 1 \\
+\text{收敛于}\frac{aq}{1-q}\ \ |q|&lt;1
+\end{cases}
+\]</span></p>
+<h2 id="必要条件">必要条件</h2>
+<p>如果级数收敛，一般项<span class="math inline">\(u_n\)</span>趋于0f <span class="math display">\[\lim_{n\rightarrow ∞}=0\]</span></p>
+<h2 id="调和级数需记">调和级数（需记）</h2>
+<p>调和级数<span class="math inline">\(\sum_{i=1}^{∞}\frac{1}{n}\)</span>发散</p>
+<h2 id="柯西审敛原理空">柯西审敛原理（空）</h2>
+<h1 id="常数项级数">常数项级数</h1>
+<h2 id="审敛法重要">审敛法（重要）</h2>
+<h3 id="比较审敛法">比较审敛法</h3>
+<p><span class="math inline">\(a_n\le b_n\)</span>，且b级数收敛，则a级数收敛</p>
+<p><span class="math inline">\(a_n\ge b_n\)</span>，且b级数发散，则a级数发散</p>
+<h4 id="极限形式">极限形式</h4>
+<p><span class="math inline">\(\lim_{n\rightarrow ∞}\frac{u_n}{v_n}=l\ \ (0\le l &lt; +∞)\)</span>，且v级数收敛，则u级数收敛</p>
+<p><span class="math inline">\(\lim_{n\rightarrow ∞}\frac{u_n}{v_n}=l &gt; 0\)</span>或<span class="math inline">\(\lim_{n\rightarrow ∞}\frac{u_n}{v_n}= +∞\)</span>，且v级数发散，则u级数发散</p>
+<h3 id="比值审敛法">比值审敛法</h3>
+<p>有级数为正项级数<span class="math inline">\(\sum_{n=1}^{∞}u_n\)</span></p>
+<p><span class="math display">\[\lim_{n\rightarrow ∞}\frac{u_{n+1}}{u_n}=\rho\]</span></p>
+<p><span class="math inline">\(\rho &lt; 1\)</span>收敛，<span class="math inline">\(\rho &gt; 1\ \ \text{或}\ \ \lim_{n\rightarrow ∞}\frac{u_{n+1}}{u_n}=∞\)</span>发散，<span class="math inline">\(\rho = 1\)</span>不确定</p>
+<h3 id="根值审敛法柯西判别法">根值审敛法（柯西判别法）</h3>
+<p>有级数为正项级数<span class="math inline">\(\sum_{n=1}^{∞}u_n\)</span></p>
+<p><span class="math display">\[\lim_{n\rightarrow ∞}\sqrt[n]{u_n}=\rho\]</span></p>
+<p><span class="math inline">\(\rho &lt; 1\)</span>收敛，<span class="math inline">\(\rho &gt; 1\ \ \text{或}\ \ \lim_{n\rightarrow ∞}\frac{u_{n+1}}{u_n}=∞\)</span>发散，<span class="math inline">\(\rho = 1\)</span>不确定</p>
+<h3 id="极限审敛法">极限审敛法</h3>
+<p>有级数为正项级数<span class="math inline">\(\sum_{n=1}^{∞}u_n\)</span></p>
+<h4 id="情况1">情况1</h4>
+<p><span class="math display">\[\lim_{n\rightarrow ∞}nu_n=l&gt;0\ \text{或}\ =+∞\]</span></p>
+<p>级数发散</p>
+<h4 id="情况2">情况2</h4>
+<p><span class="math inline">\(p&gt;1\)</span></p>
+<p><span class="math display">\[\lim_{n\rightarrow ∞}n^p u_n=l \ \ (0\le l &lt; +∞)\]</span></p>
+<p>级数收敛</p>
+<h2 id="交错级数及审敛法">交错级数及审敛法</h2>
+<h3 id="莱布尼兹定理审敛法之一">莱布尼兹定理（审敛法之一）</h3>
+<p>交错级数<span class="math inline">\(\sum_{n=1}^{∞}(-1)^{n-1}u_n\)</span>满足下面条件则为收敛：</p>
+<ol type="1">
+<li><p><span class="math inline">\(u_n \ge u_{n+1}\ \ (n=1,2,3,...,n)\)</span></p></li>
+<li><p><span class="math inline">\(\lim_{n\rightarrow ∞}=0\)</span></p></li>
+</ol>
+<p>并且级数其和<span class="math inline">\(s \le u_1\)</span>，余项<span class="math inline">\(r_n\)</span>的绝对值<span class="math inline">\(|r_n| \le u_{n+1}\)</span></p>
+<h2 id="绝对收敛和条件收敛">绝对收敛和条件收敛</h2>
+<p>前提：级数本身是收敛的</p>
+<p>级数加绝对值符号，如果级数还收敛，则为绝对收敛；如果加绝对值符号后的级数发散，则为条件收敛。</p>
+<p>A推B： <span class="math display">\[\text{绝对收敛}\rightarrow \text{必定收敛}\]</span></p>
+<h1 id="幂级数空">幂级数（空）</h1>
 
     </div>
 
@@ -260,7 +299,8 @@
       <footer class="post-footer">
           <div class="post-tags">
               <a href="/tags/%E6%9C%AA%E5%AE%8C%E6%95%B4%E5%8D%9A%E5%AE%A2/" rel="tag"># 未完整博客</a>
-              <a href="/tags/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/" rel="tag"># 微分方程</a>
+              <a href="/tags/%E5%AE%9A%E7%A7%AF%E5%88%86/" rel="tag"># 定积分</a>
+              <a href="/tags/%E7%BA%A7%E6%95%B0/" rel="tag"># 级数</a>
           </div>
 
         
@@ -269,13 +309,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2020/03/10/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86%E4%B8%8E%E5%AE%9A%E7%A7%AF%E5%88%86/" rel="prev" title="不定积分与定积分">
-      <i class="fa fa-chevron-left"></i> 不定积分与定积分
+    <a href="/2020/05/12/%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86%E4%B8%8E%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86/" rel="prev" title="曲线积分与曲面积分">
+      <i class="fa fa-chevron-left"></i> 曲线积分与曲面积分
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2020/04/20/%E5%90%91%E9%87%8F%E4%BB%A3%E6%95%B0%E4%B8%8E%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/" rel="next" title="向量代数与空间解析几何">
-      向量代数与空间解析几何 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -335,7 +372,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#可分离变量微分方程"><span class="nav-number">1.</span> <span class="nav-text">可分离变量微分方程</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#齐次方程"><span class="nav-number">2.</span> <span class="nav-text">齐次方程</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#一阶线性方程"><span class="nav-number">3.</span> <span class="nav-text">一阶线性方程</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#线性方程"><span class="nav-number">3.1.</span> <span class="nav-text">线性方程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#形式"><span class="nav-number">3.1.1.</span> <span class="nav-text">形式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#情况"><span class="nav-number">3.1.2.</span> <span class="nav-text">情况</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#通解形式"><span class="nav-number">3.1.3.</span> <span class="nav-text">通解形式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#伯努利方程"><span class="nav-number">3.2.</span> <span class="nav-text">伯努利方程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#形式与线性方程略有不同"><span class="nav-number">3.2.1.</span> <span class="nav-text">形式（与线性方程略有不同）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#通解形式-1"><span class="nav-number">3.2.2.</span> <span class="nav-text">通解形式</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#概念和性质"><span class="nav-number">1.</span> <span class="nav-text">概念和性质</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#定义"><span class="nav-number">1.1.</span> <span class="nav-text">定义</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#等比级数几何级数"><span class="nav-number">1.2.</span> <span class="nav-text">等比级数（几何级数）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#必要条件"><span class="nav-number">1.3.</span> <span class="nav-text">必要条件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#调和级数需记"><span class="nav-number">1.4.</span> <span class="nav-text">调和级数（需记）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#柯西审敛原理空"><span class="nav-number">1.5.</span> <span class="nav-text">柯西审敛原理（空）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#常数项级数"><span class="nav-number">2.</span> <span class="nav-text">常数项级数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#审敛法重要"><span class="nav-number">2.1.</span> <span class="nav-text">审敛法（重要）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#比较审敛法"><span class="nav-number">2.1.1.</span> <span class="nav-text">比较审敛法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#极限形式"><span class="nav-number">2.1.1.1.</span> <span class="nav-text">极限形式</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#比值审敛法"><span class="nav-number">2.1.2.</span> <span class="nav-text">比值审敛法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#根值审敛法柯西判别法"><span class="nav-number">2.1.3.</span> <span class="nav-text">根值审敛法（柯西判别法）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#极限审敛法"><span class="nav-number">2.1.4.</span> <span class="nav-text">极限审敛法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#情况1"><span class="nav-number">2.1.4.1.</span> <span class="nav-text">情况1</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#情况2"><span class="nav-number">2.1.4.2.</span> <span class="nav-text">情况2</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#交错级数及审敛法"><span class="nav-number">2.2.</span> <span class="nav-text">交错级数及审敛法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#莱布尼兹定理审敛法之一"><span class="nav-number">2.2.1.</span> <span class="nav-text">莱布尼兹定理（审敛法之一）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#绝对收敛和条件收敛"><span class="nav-number">2.3.</span> <span class="nav-text">绝对收敛和条件收敛</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#幂级数空"><span class="nav-number">3.</span> <span class="nav-text">幂级数（空）</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
