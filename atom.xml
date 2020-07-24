@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-17T09:54:14.509Z</updated>
+  <updated>2020-07-22T11:48:15.473Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,67 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>概率论与数理统计</title>
+    <link href="http://yoursite.com/2020/07/22/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
+    <id>http://yoursite.com/2020/07/22/概率论/</id>
+    <published>2020-07-22T09:26:01.037Z</published>
+    <updated>2020-07-22T11:48:15.473Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="汤老名言">汤老名言</h1><p>这东西简单得一塌糊涂</p><h1 id="概率论基本概念">概率论基本概念</h1><h2 id="随机试验">随机试验</h2><p>所有可能结果组成的集合称为E的样本空间，记为S.样本空间的元素，即E的每个结果为样本点</p><h2 id="样本空间随机事件">样本空间、随机事件</h2><p>E为随机事件，E里面只有一个元素则叫基本事件，S包含所有事件则为必然事件，∅则为不可能事件</p><h3 id="事件之间的关系">事件之间的关系</h3><h4 id="包含">包含</h4><p>B里面有A事件，A发生则B也发生</p><p><span class="math display">\[A\subset B\]</span></p><p><span class="math display">\[(A\subset B) \land (B\subset A) \rightarrow A=B\]</span></p><h4 id="和">和</h4><p>n个事件任意一个发生</p><p><span class="math display">\[A_1 \cup A_2 \cup A_3 ... \cup A_n\]</span></p><h4 id="积">积</h4><p>n个事件同时发生 <span class="math display">\[A_1\cap A_2 ... \cap A_n\]</span></p><h4 id="差">差</h4><p>A发生，B不发生 <span class="math display">\[A-B\]</span></p><h4 id="互斥">互斥</h4><p>A和B不可能同时发生 <span class="math display">\[A\cap B=∅\]</span></p><h4 id="对立">对立</h4><p>太极的阴阳形状 <span class="math display">\[P{A}+P{B}=1 \text{并且} A\cap B=∅\]</span></p><h3 id="计算规律德摩根律需注意">计算规律（德摩根律需注意）</h3><p>交换律，结合律，分配律，德摩根律</p><h2 id="频率与概率">频率与概率</h2><h3 id="频率">频率</h3><h4 id="定义">定义</h4><p>n次试验中，事件A发生的次数<span class="math inline">\(n_A\)</span>称为事件A的频数，比值<span class="math inline">\(frac{n_A}{n}\)</span>为频率，并记为<span class="math inline">\(f_n(A)\)</span></p><h4 id="性质">性质</h4><p><span class="math display">\[0\le f_n(A\le 1\]</span> <span class="math display">\[f_n(S)=1\]</span> <span class="math display">\[f_n(A_1\cap A_2\cap ... \cap A_k)=f_n(A_1)+f_n(A_2)+...+f_n(A_k)\]</span></p><h3 id="概率">概率</h3><h4 id="性质-1">性质</h4><p>1.非负性</p><p>2.规范性</p><p>3.可列可加性</p><h2 id="等可能概型古典概型">等可能概型（古典概型）</h2><h2 id="条件概率">条件概率</h2><h2 id="独立性">独立性</h2><h1 id="随机变量及其分布">随机变量及其分布</h1><h2 id="随机变量">随机变量</h2><h2 id="离散型随机变量及其分布律">离散型随机变量及其分布律</h2><h2 id="连续型随机变量及其概率密度">连续型随机变量及其概率密度</h2><h2 id="随机变量的函数的分布">随机变量的函数的分布</h2><h1 id="多维随机变量及其分布">多维随机变量及其分布</h1><h2 id="二维随机变量">二维随机变量</h2><h2 id="边缘分布">边缘分布</h2><h2 id="条件分布">条件分布</h2><h2 id="相互独立的随机变量">相互独立的随机变量</h2><h2 id="两个随机变量的函数的分布">两个随机变量的函数的分布</h2><h1 id="随机变量的数学特征">随机变量的数学特征</h1><h2 id="数学期望">数学期望</h2><h2 id="方差">方差</h2><h2 id="协方差及相关系数">协方差及相关系数</h2><h2 id="矩协方差矩阵">矩、协方差矩阵</h2><h1 id="大数定律及中心极限定理">大数定律及中心极限定理</h1><h2 id="中心极限定理">中心极限定理</h2><h1 id="数理统计分割线--------">--------数理统计分割线--------</h1><h1 id="样本及抽样分布">样本及抽样分布</h1><h2 id="随机样本">随机样本</h2><h2 id="抽样分布">抽样分布</h2><h1 id="参数估计">参数估计</h1><h2 id="点估计">点估计</h2><h2 id="基于截尾样本的最大似然估计">基于截尾样本的最大似然估计</h2><h2 id="估计量的评选标准">估计量的评选标准</h2><h2 id="区间估计">区间估计</h2><h1 id="假设检验">假设检验</h1><h2 id="假设检验-1">假设检验</h2><h2 id="正态总体均值的假设检验">正态总体均值的假设检验</h2><h2 id="正态总体方差的假设检验">正态总体方差的假设检验</h2><h2 id="置信区间的假设检验之间的关系">置信区间的假设检验之间的关系</h2><h2 id="样本容量的选取">样本容量的选取</h2><h2 id="分布拟合检验">分布拟合检验</h2><h2 id="秩和检验">秩和检验</h2><h2 id="假设检验问题的p值检验法">假设检验问题的p值检验法</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;汤老名言&quot;&gt;汤老名言&lt;/h1&gt;
+&lt;p&gt;这东西简单得一塌糊涂&lt;/p&gt;
+&lt;h1 id=&quot;概率论基本概念&quot;&gt;概率论基本概念&lt;/h1&gt;
+&lt;h2 id=&quot;随机试验&quot;&gt;随机试验&lt;/h2&gt;
+&lt;p&gt;所有可能结果组成的集合称为E的样本空间，记为S.样本空间的元素，即E的每个
+      
+    
+    </summary>
+    
+      <category term="概率论与数理统计" scheme="http://yoursite.com/categories/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/"/>
+    
+    
+      <category term="未完整博客" scheme="http://yoursite.com/tags/%E6%9C%AA%E5%AE%8C%E6%95%B4%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="公式整理" scheme="http://yoursite.com/tags/%E5%85%AC%E5%BC%8F%E6%95%B4%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机组成原理概论</title>
+    <link href="http://yoursite.com/2020/05/28/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E6%A6%82%E8%AE%BA/"/>
+    <id>http://yoursite.com/2020/05/28/计算机组成原理概论/</id>
+    <published>2020-05-28T12:00:43.861Z</published>
+    <updated>2020-05-28T12:58:28.463Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="cpu提高性能方法今后发展方向">CPU提高性能方法（今后发展方向）</h1><h2 id="进一步提高电路复杂性">进一步提高电路复杂性</h2><p>采用传统的指令级并行方法加速单线程应用，采用更多功能部件、多级 Cache、更宽的超标量。</p><h2 id="通过线程进程并行性">通过线程/进程并行性</h2><p>如多处理器、多线程处理器等。</p><h2 id="将存储器集成到处理器芯片内来提高其性能">将存储器集成到处理器芯片内来提高其性能</h2><p>这样可使访存延时减少 5～10 倍以上，存储器带宽可增加 50～100 倍。</p><h2 id="发展嵌入式处理器">发展嵌入式处理器</h2><p>嵌入式处理器实现高性能的途径与通用处理器不同，大多针对专门的应用领域来专门设计以满足高性能、低成本和低功耗的要求。</p><p>例如，手机和个人移动通信设备要求具有高性能的数字信号处理能力和超低功耗；视频游戏控制要求高性能的图形处理能力等等。嵌入式处理器体系结构需要在新技术与产品、市场与应用需求之间取得平衡，设计方法趋向于专用、定制和自动化。</p><h1 id="计算机的主要性能指标">计算机的主要性能指标</h1><h2 id="机器字长土话就是多少位">机器字长（土话就是多少位）</h2><ol type="1"><li><p>机器字长是指 CPU 一次能处理的数据位数，它决定了寄存器、运算部件、数据总线的位数。字长越长，数的表示范围也越大，精度也越高，但其相应的硬件成本也越高。因此为 了适应不同的设计需要，较好地协调数据精度与硬件成本的关系，在硬件或软件上可以采用 变字长运算，如采用半字长、全字长或双字长等等。</p></li><li><p>机器字长还会影响机器的运算速度。因为，假设 CPU字长短，而运算的数据位数较多，则需要经过多次运算才能完成，这样势必会影响整机的运算速度。</p></li><li><p>机器字长和机器指令存在着密切的关系，指令和数据都是存放在主存储器中，因此指令长度受到机器字长的限制，机器字长对指令系统的功能也有着影响。一般指令长度可以是机器字长的整数倍。</p></li></ol><h2 id="存储容量">存储容量</h2><ol type="1"><li><p>存储器容量应包括主存储器容量和辅助存储器容量。主存储器指 CPU 能通过地址线直接访问的存储器，如RAM、ROM等；辅助存储器是主存储器以外的存储器，如磁盘、U盘等。</p></li><li><p>主存储器容量是指主存中存放数据的字节（以字节为单位）或字（以字为单位）的数量，以字节为单位表示主存每个单元存放一个字节数据，而以字为单位则表示主存每个单元存放一个字数据。</p></li><li><p>以字节为单位的主存容量用字节数乘以字节长度来表示主存容量：</p><p><strong><em>存储容量＝存储单元个数×字节长度</em></strong></p></li><li><p>以字为单位的主存容量用字数乘以存储字长来表示主存容量：</p><p><strong><em>存储容量＝存储单元个数×存储字长</em></strong></p></li><li><p>现代大多计算机以字节为单位来表示主存储器的容量，如64MB、128MB、256MB主存等等。辅助存储器的容量一般以字节数来表示，如某机硬盘容量为20GB。</p></li></ol><h2 id="运算速度">运算速度</h2><p>计算机的运算速度与许多因素有关，如机器的主频、执行何种操作、访问存储器的速度 等。早期曾经采用综合折算的方法，它综合考虑每条指令的执行时间以及它们在全部操作中所占的百分比。即：</p><p><span class="math display">\[T_M=\sum_{i=1}^nf_it_i\]</span></p><p><span class="math inline">\(T_M\)</span>为机器运行速度</p><p><span class="math inline">\(f_i\)</span>为第 i 种指令占全部操作的百分比数 i</p><p><span class="math inline">\(t_i\)</span>为第 i 种指令的执行时间</p><p>现在普遍采用单位时间内执行指令的平均条数来作为运算速度的指标。并用 MIPS（Million Instruction Per Second）每秒多少百万条指令表示，例如，某机器每秒可执行 400 万条指令，则记为 4MIPS。也可以用 CPI（Cycle Per Instruction）执行一条指令所需的周期数表示，或者用 FPOPS（Floating Point Operation Per Second ）每秒浮点运算次数来衡量运算速度。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;cpu提高性能方法今后发展方向&quot;&gt;CPU提高性能方法（今后发展方向）&lt;/h1&gt;
+&lt;h2 id=&quot;进一步提高电路复杂性&quot;&gt;进一步提高电路复杂性&lt;/h2&gt;
+&lt;p&gt;采用传统的指令级并行方法加速单线程应用，采用更多功能部件、多级 Cache、更宽的超标量。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="计算机组成原理" scheme="http://yoursite.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
+    
+    
+      <category term="未完整博客" scheme="http://yoursite.com/tags/%E6%9C%AA%E5%AE%8C%E6%95%B4%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="计算机组成原理" scheme="http://yoursite.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>级数</title>
@@ -265,9 +326,9 @@
     <link href="http://yoursite.com/2020/01/06/%E5%87%BD%E6%95%B0%E4%B8%8E%E6%9E%81%E9%99%90/"/>
     <id>http://yoursite.com/2020/01/06/函数与极限/</id>
     <published>2020-01-06T05:45:38.543Z</published>
-    <updated>2020-01-06T05:45:38.543Z</updated>
+    <updated>2020-07-24T07:44:52.759Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="函数">函数</h1><h2 id="绝对值函数">绝对值函数</h2><p><span class="math inline">\(y = |x|\)</span></p><p>值部分（python伪代码）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">if x &lt; 0</span><br><span class="line">    y &#x3D; -1</span><br><span class="line"></span><br><span class="line">elif x &#x3D;&#x3D; 0</span><br><span class="line">    y &#x3D; 0</span><br><span class="line"></span><br><span class="line">else x &gt; 0</span><br><span class="line">    y &#x3D; 1</span><br></pre></td></tr></table></figure><h2 id="取整函数向下取整">取整函数（向下取整）</h2><p>表现形式：<span class="math inline">\(\sqrt{2}=1\)</span></p><p>就如这么表示：<span class="math inline">\([x]\)</span></p><h2 id="分段函数">分段函数</h2><p>值部分分别表示就算分段函数</p><h2 id="复合函数">复合函数</h2><p><span class="math inline">\((f∘g)(x) = f[g(x)]\)</span></p><h1 id="双曲函数">双曲函数</h1><p>双曲正弦：<span class="math inline">\(sh x = \frac{e^{x} - e^{-x}}{2}\)</span></p><p>双曲余弦：<span class="math inline">\(ch x = \frac{e^{x} + e^{-x}}{2}\)</span></p><p>双曲正切：<span class="math inline">\(th x = \frac{sh x}{ch x} = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}\)</span></p><p>反双曲正弦： <span class="math inline">\(arsh x = ln(x + \sqrt{x^2 + 1})\)</span></p><p>反双曲余弦： <span class="math inline">\(arch x = ln(x + \sqrt{x^2 - 1})\)</span></p><p>反双曲正切： <span class="math inline">\(arth x = \frac{1}{2} * ln \frac{1 + x}{1 - x}\)</span></p><h1 id="两个重要极限重要">两个重要极限（重要！）</h1><ol type="1"><li><p><span class="math inline">\(\lim_{n \to 0} \ \frac{\sin x}{x}=1\)</span></p></li><li><p><span class="math inline">\(\lim_{n \to \infty} (1+\frac{1}{x})^{x} = e\)</span></p></li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="函数">函数</h1><h2 id="绝对值函数">绝对值函数</h2><p><span class="math inline">\(y = |x|\)</span></p><p>值部分（python伪代码）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">if x &lt; 0</span><br><span class="line">    y &#x3D; -1</span><br><span class="line"></span><br><span class="line">elif x &#x3D;&#x3D; 0</span><br><span class="line">    y &#x3D; 0</span><br><span class="line"></span><br><span class="line">else x &gt; 0</span><br><span class="line">    y &#x3D; 1</span><br></pre></td></tr></table></figure><h2 id="取整函数向下取整">取整函数（向下取整）</h2><p>表现形式：<span class="math inline">\(\sqrt{2}=1\)</span></p><p>就如这么表示：<span class="math inline">\([x]\)</span></p><h2 id="分段函数">分段函数</h2><p>值部分分别表示就算分段函数</p><h2 id="复合函数">复合函数</h2><p><span class="math inline">\((f∘g)(x) = f[g(x)]\)</span></p><h1 id="双曲函数">双曲函数</h1><p>双曲正弦：<span class="math inline">\(sh x = \frac{e^{x} - e^{-x}}{2}\)</span></p><p>双曲余弦：<span class="math inline">\(ch x = \frac{e^{x} + e^{-x}}{2}\)</span></p><p>双曲正切：<span class="math inline">\(th x = \frac{sh x}{ch x} = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}\)</span></p><p>反双曲正弦： <span class="math inline">\(arsh x = ln(x + \sqrt{x^2 + 1})\)</span></p><p>反双曲余弦： <span class="math inline">\(arch x = ln(x + \sqrt{x^2 - 1})\)</span></p><p>反双曲正切： <span class="math inline">\(arth x = \frac{1}{2} * ln \frac{1 + x}{1 - x}\)</span></p><h1 id="两个重要极限重要">两个重要极限（重要！）</h1><ol type="1"><li><p><span class="math inline">\(\lim_{n \to 0} \ \frac{\sin x}{x}=1\)</span></p></li><li><p><span class="math inline">\(\lim_{n \to \infty} (1+\frac{1}{x})^{x} = e\)</span></p></li></ol><h1 id="泰勒公式推导出来的等阶无穷小一定要记">泰勒公式推导出来的等阶无穷小（一定要记）</h1><p>前提：当<span class="math inline">\(x\rightarrow 0\)</span></p><p><span class="math display">\[a^x-1 \text{ ~ } x\ln a\]</span></p><p><span class="math display">\[\arcsin (a)x\text{ ~ } \sin (a)x \text{ ~ } (a)x\]</span></p><p><span class="math display">\[\arctan (a)x \text{ ~ } \tan (a)x \text{ ~ } (a)x\]</span></p><p><span class="math display">\[\ln (1+x)\text{ ~ } x\]</span></p><p><span class="math display">\[\sqrt{1+x}-\sqrt{1-x}\text{ ~ }x\]</span></p><p><span class="math display">\[(1+ax)^b-1\text{ ~ }abx\]</span></p><p><span class="math display">\[\sqrt[b]{1+ax}-1\text{ ~ }\frac{a}{b}x\]</span></p><p><span class="math display">\[1-\cos x\text{ ~ }\frac{x^2}{2}\]</span></p><p><span class="math display">\[x-\ln (1+x)\text{ ~ }\frac{x^2}{2}\]</span></p><p><span class="math display">\[\tan x-\sin x \text{ ~ } \frac{x^3}{2}\]</span></p><p><span class="math display">\[\tan x-x \text{ ~ } \frac{x^3}{3}\]</span></p><p><span class="math display">\[x-\arctan x\text{ ~ }\frac{x^3}{3}\]</span></p><p><span class="math display">\[x-\sin x\text{ ~ }\frac{x^3}{6}\]</span></p><p><span class="math display">\[\arcsin x-x\text{ ~ }\frac{x^3}{6}\]</span></p>]]></content>
     
     <summary type="html">
     
